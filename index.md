@@ -1,7 +1,7 @@
 ---
 layout: page
-menutitle: About me
-permalink: /
+# menutitle: About me
+# permalink: /
 ---
 
 I am a postdoctoral researcher at ETH Zurich in the group of [Prof. Laurent Vanbever](https://nsg.ee.ethz.ch/people/laurent-vanbever/). My current research interests are focused on computer networks, communication protocols, (real-time) scheduling theory, and statistics applied to experimental design.
