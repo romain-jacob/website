@@ -1,0 +1,51 @@
+# Site settings
+title: JSys
+email: editor@jsys.org
+description: Journal of Systems Research
+baseurl: ""                           # the subpath of your site, e.g. /blog/
+url: "http://jsys.org" # the base hostname & protocol for your site
+twitter_username: jsysresearch
+github_username:  jsysresearch
+
+social:
+  rss: feed.xml
+
+# Build settings
+markdown: kramdown
+
+# Exclude:
+exclude: ["README.md"]
+
+# Jekyll scholar
+plugins: ['jekyll/scholar']
+
+scholar:
+  style: acm-siggraph
+  # style: chicago-fullnote-bibliography
+  locale: en
+
+  bibliography_list_tag: ol
+  sort_by: year, month, type, area
+  order: descending, descending, descending, area
+
+  # group_by: type
+  # group_order: ascending
+
+  source: ./_bibliography
+  bibliography: jsys.bib
+  bibliography_template: bib
+  repository: _papers
+
+  replace_strings: true
+  join_strings:    true
+
+  # use_raw_bibtex_entry: true
+  bibtex_filters:
+  - superscript
+  - latex
+
+  details_dir:    bibliography
+  details_layout: bibtex.html
+  details_link:   ""
+
+  query: "@*"
