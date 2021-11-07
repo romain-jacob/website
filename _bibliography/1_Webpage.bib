@@ -1,0 +1,635 @@
+
+@phdthesis{bachli2016Protocola,
+  type = {Semester {{Thesis}}},
+  title = {A {{Protocol Gateway}} for the {{Internet}} of {{Things}}},
+  author = {B{\"a}chli, Jonas},
+  year = {2016},
+  month = jun,
+  url = {https://pub.tik.ee.ethz.ch/students/2016-FS/SA-2016-03.pdf},
+  urldate = {2018-11-29},
+  abstract = {The Internet of Things offers unique opportunities through the establishment of connections between before unconnected devices. This thesis investigates the feasibility of a protocol gateway which is able to connect the existing Low-power Wireless Bus with a smartphone using Bluetooth Low Energy. Its implementation had to satisfy in terms of low power requirements as well as in terms of bandwidth available. In order to develop this protocol gateway, suitable hardware had to be selected. To implement its functionality in software, Bluetooth Low Energy had to be explored while writing software on two platforms, on an embedded System-on-Chip as well as on an Android smartphone, providing a reliable connection for data transfers. In addition it involved a thorough evaluation, using the data obtained through measurements to derive a power state model, making it possible to estimate the power consumption of a Bluetooth Low Energy device by the means of its specifications. The developed system has a deep sleep power    consumption of only 4.29 \textmu W, enabling it to be available for over 600 days using a single coin cell.},
+  langid = {english},
+  school = {ETH Zurich}
+}
+
+@mastersthesis{bachli2018Creating,
+  title = {Creating a {{Flexible Middleware}} for {{Low}}-{{Power Flooding Protocols}}},
+  author = {B{\"a}chli, Jonas},
+  year = {2018},
+  month = jun,
+  doi = {10.3929/ethz-b-000270388},
+  url = {https://www.research-collection.ethz.ch/handle/20.500.11850/270388},
+  urldate = {2018-07-17},
+  abstract = {Low-power wireless networks allow for easy-deployment and low-maintenance solutions for sensor applications. Glossy, an often used communication primitive to build such low-power wireless networks, is a flooding protocol providing high reliability and resilience. Even though the list of protocols building on top of Glossy is extensive, the current approach to implement Glossy-based protocols could be significantly improved by separating low-level complexity from high- level protocol logic. The Glossy Middleware presented in this thesis provides system designers with a well-defined, yet versatile interface. Building on top of a round-based framework, the Glossy Middleware offers a vast amount of control over important Glossy parameters on a high-level. This report presents the design and features of the Glossy Middleware in detail, while also serving as an user manual. The evaluation displays the low performance overhead in terms of memory and energy usage as well as the high usability by reimplementing different existing protocols in addition to others, illustrating the various features of the middleware. The middleware has been designed with hardware portability in mind: currently it is fully supported on the DPP platform and to some extent on the TelosB platform. This thesis concludes by illustrating possible improvements on the existing work while also outlining exiting possibilities of the developed Glossy Middle- ware.},
+  langid = {english},
+  school = {ETH Zurich},
+  file = {/home/user/Zotero/storage/ZALQXP4X/Bächli - 2018 - Creating a Flexible Middleware for Low-Power Flood.pdf}
+}
+
+@article{baumann2019TCPS,
+  title = {Fast {{Feedback Control}} over {{Multi}}-Hop {{Wireless Networks}} with {{Mode Changes}} and {{Stability Guarantees}}},
+  author = {Baumann, Dominik and Mager, Fabian and Jacob, Romain and Thiele, Lothar and Zimmerling, Marco and Trimpe, Sebastian},
+  year = {2019},
+  month = nov,
+  journal = {ACM Transactions on Cyber-Physical Systems},
+  volume = {4},
+  number = {2},
+  pages = {18:1--18:32},
+  issn = {2378-962X},
+  doi = {10.1145/3361846},
+  url = {https://doi.org/10.1145/3361846},
+  urldate = {2020-01-23},
+  abstract = {Closing feedback loops fast and over long distances is key to emerging cyber-physical applications; for example, robot motion control and swarm coordination require update intervals of tens of milliseconds. Low-power wireless communication technology is preferred for its low cost, small form factor, and flexibility, especially if the devices support multi-hop communication. Thus far, however, feedback control over multi-hop low-power wireless networks has only been demonstrated for update intervals on the order of seconds. To fill this gap, this article presents a wireless embedded system that supports dynamic mode changes and tames imperfections impairing control performance (e.g., jitter and message loss), and a control design that exploits the essential properties of this system to provably guarantee closed-loop stability for physical processes with linear time-invariant dynamics in the presence of mode changes. Using experiments on a cyber-physical testbed with 20 wireless devices and multiple cart-pole systems, we are the first to demonstrate and evaluate feedback control and coordination with mode changes over multi-hop networks for update intervals of 20 to 50 milliseconds.},
+  keywords = {closed-loop stability,cyber-physical systems,industrial Internet of Things,mode changes,multi-agent systems,multi-hop networks,synchronous transmissions,Wireless control},
+  file = {/home/user/Zotero/storage/I4ZML9VS/Baumann et al. - 2019 - Fast Feedback Control over Multi-hop Wireless Netw.pdf}
+}
+
+@inproceedings{beutel2019dual,
+  title = {The Dual Processor Platform Architecture: Demo Abstract},
+  shorttitle = {The Dual Processor Platform Architecture},
+  booktitle = {Proceedings of the 18th {{International Conference}} on {{Information Processing}} in {{Sensor Networks}}},
+  author = {Beutel, Jan and Tr{\"u}b, Roman and Forno, Reto Da and Wegmann, Markus and Gsell, Tonio and Jacob, Romain and Keller, Michael and Sutton, Felix and Thiele, Lothar},
+  year = {2019},
+  month = apr,
+  series = {{{IPSN}} '19},
+  pages = {335--336},
+  publisher = {{Association for Computing Machinery}},
+  address = {{New York, NY, USA}},
+  doi = {10.1145/3302506.3312481},
+  url = {https://doi.org/10.1145/3302506.3312481},
+  urldate = {2020-10-29},
+  abstract = {The Dual Processor Platform (DPP) is a novel architecture template for networked embedded systems based on a strictly asynchronous processor interconnect that allows to minimize interference with a proven predictable behavior [7]. Contrary to traditional platforms [1, 5] DPP tries to mitigate interference by isolating different tasks and mapping them onto dedicated hardware resources. Typically, two different task sets - (i) sensing/actuation/data processing and (ii) communication - are mapped onto two different physically separated processing elements (usually low-power microcontrollers), allowing each to be optimized according to their individual requirements. Such hardware partitioning is a standard approach, frequently found in more complex sensor system implementations [2]. While the communication processor handles wireless packet transmission and reception, the application processor is dedicated to the sensor data acquisition, processing and actuation. But this strict separation of resources and function also requires a processor interconnect: BOLT [7], a stateful processor interconnect specifically designed based on this paradigm allows a strict decoupling of the power, clock and time domains of the two processing elements by allowing only asynchronous message passing between the two. The strict limitation to an asynchronous interface allows for predictable run-time behavior that, in addition to typical behavior observed from experiments, has been formally verified [7]. The most notable advantages of this approach are: Modularity Exchanging one of the components is hassle free and does not require a change to the other components. Simpler software The complexity of software development and validation is significantly reduced by task decoupling. Parallel development Development of the two separate entities can take place independently. Independent power management Each subsystem can take independent decisions on when to utilize low-power modes.},
+  isbn = {978-1-4503-6284-9},
+  keywords = {low-power,modular architecture,sensor network platforms},
+  file = {/home/user/Zotero/storage/GLIZZXKH/Beutel et al. - 2019 - The dual processor platform architecture demo abs.pdf}
+}
+
+@phdthesis{biri2017Unleashing,
+  type = {Semester {{Thesis}}},
+  title = {Unleashing the Potential of {{Real}}-Time {{Internet}} of {{Things}}},
+  author = {Biri, Andreas},
+  year = {2017},
+  month = dec,
+  doi = {10.3929/ethz-b-000234913},
+  url = {https://www.research-collection.ethz.ch/handle/20.500.11850/234913},
+  urldate = {2018-02-12},
+  abstract = {With the recent surge in the interest for the Internet of Things (IoT) and an increased deployment of cyber-physical systems (CPS) in commercial and indus- trial applications, distributed systems have gained a significance influence on modern civilization and are performing increasingly complex tasks. Building such platforms in a reliable manner is challenging, as they include concurrent tasks on the application and the communication layers. As the majority of such devices features a single processor, tasked with both communicating over the network as well as sensing and computing, real-time scheduling conflicts arise as the resource separation of the applications in software is difficult to manage. To achieve such independence, we propose a platform consisting of dedicated application (AP) and communication (CP) processors which are completely de- coupled in terms of resource access, clock speeds and power management using BOLT. Leveraging this hardware separation, we then use the Distributed Real-time Protocol (DRP) to provably provide end-to-end real-time guaran- tees for the communication between distributed applications over a multi-hop wireless network. By establishing a set of contracts at run-time, DRP ensures that all messages reaching their destination meet their hard deadline. To demon- strate this, we implement the BLINK scheduler directly on the AP and adapt the LWB round structure to use DRP as a control layer protocol. We show that our system is capable of supporting several hundred simultaneous streams and can respond to requests in maximally 3 stream periods over up to 10 hops.},
+  copyright = {http://rightsstatements.org/page/InC-NC/1.0/},
+  langid = {english},
+  school = {ETH Zurich},
+  file = {/home/user/Zotero/storage/JE4S9TEX/Biri - 2017 - Unleashing the potential of Real-time Internet of .pdf;/home/user/Zotero/storage/J9XGWZJY/234913.html}
+}
+
+@inproceedings{boano2018IoTBench,
+  title = {{{IoTBench}}: Towards a {{Benchmark}} for {{Low}}-Power {{Wireless Networking}}},
+  shorttitle = {{{IoTBench}}},
+  booktitle = {Proceedings of the 1st {{Workshop}} on {{Benchmarking Cyber}}-{{Physical Networks}} and {{Systems}} ({{CPSBench}} 2018)},
+  author = {Boano, Carlo A. and Duquennoy, Simon and F{\"o}rster, Anna and Gnawali, Omprakash and Jacob, Romain and Kim, Hyung-Sin and Landsiedel, Olaf and Marfievici, Ramona and Mottola, Luca and Picco, Gian Pietro and Vilajosana, Xavier and Watteyne, Thomas and Zimmerling, Marco},
+  year = {2018},
+  month = apr,
+  doi = {10.3929/ethz-b-000256517},
+  url = {https://www.research-collection.ethz.ch/handle/20.500.11850/256517},
+  urldate = {2018-04-09},
+  abstract = {Unlike other fields of computing and communications, low-power wireless networking is plagued by one major issue: the absence of a well-defined, agreed-upon yardstick to compare the performance of systems, namely, a benchmark. We argue that this situation may eventually represent a hampering factor for a technology expected to be key in the Internet of Things (IoT) and Cyber-physical Systems (CPS). This paper describes a recent initiative to remedy this situation, seeking to enlarge the participation from the community.},
+  copyright = {http://rightsstatements.org/page/InC-NC/1.0/},
+  langid = {english},
+  file = {/home/user/Zotero/storage/MECLR7TQ/Boano et al. - 2018 - IoTBench Towards a Benchmark for Low-power Wirele.pdf;/home/user/Zotero/storage/ZL5XQ6S8/256517.html}
+}
+
+@phdthesis{dietmueller2017FaultTolerance,
+  type = {Semester {{Thesis}}},
+  title = {Fault-{{Tolerance Mechanisms}} for {{Glossy}}-Based {{Wireless Communication Networks}}},
+  author = {Dietmueller, Alexander},
+  year = {2017},
+  month = jul,
+  doi = {10.3929/ethz-b-000234924},
+  url = {https://www.research-collection.ethz.ch/handle/20.500.11850/234924},
+  urldate = {2018-02-12},
+  abstract = {Flooding-based communication with protocols such as Glossy is being used in- creasingly in low-power wireless communication for multi-hop networks because of its efficiency and reliability. For example, Glossy can achieve packet reception rates above 99.99\% in real-life tests. However, faults like interference can still occur, causing a packet to get lost, and, up-to-date, most Glossy-based communi- cation protocols do not take such faults explicitly into account. We address this by using the Low-Power Wireless Bus (LWB), a MAC protocol based on Glossy floods, to design fault-tolerance mechanisms. To this end, we classify the faults that can affect our LWB network, and analyze fault-tolerance mechanisms for data collection and data dissemination applications. We propose two different mechanisms for data collection and present general evaluation results, consider- ing one data-collecting sink as well as multiple (redundant) sinks. Furthermore, we briefly discuss three approaches to fault-tolerant data dissemination. Glossy and LWB are simple protocols with nice statistical properties, which helps to model and analyze fault-tolerance mechanisms independently of network topol- ogy and traffic patterns. Additionally, the proposed mechanisms for data col- lection are able to leverage Glossy and LWB to increase efficiency. This general classification and fault-tolerance mechanisms can be used as a foundation for future analysis of more specific use-cases, e.g. designing a fault-tolerance mech- anism tailored for a specific network topology. Additionally, an investigation on the assumptions we make for our analysis could provide further insight into the modeling of Glossy-based networks.},
+  copyright = {http://rightsstatements.org/page/InC-NC/1.0/},
+  langid = {english},
+  school = {ETH Zurich},
+  file = {/home/user/Zotero/storage/ZMUR9H2J/Dietmueller - 2017 - Fault-Tolerance Mechanisms for Glossy-based Wirele.pdf;/home/user/Zotero/storage/UC3TYLRK/234924.html}
+}
+
+@misc{iotbenchmarksinitiative2018Benchmarking,
+  title = {Benchmarking {{Low}}-Power {{Wireless Networking}}},
+  author = {IoT Benchmarks Initiative},
+  year = {2018},
+  month = feb,
+  url = {https://www.iotbench.ethz.ch/wp-content/uploads/2018/02/2018_EWSN_poster_final_online.pdf},
+  annotation = {EWSN 2018},
+  file = {/home/user/Zotero/storage/T2KNV57W/IoT Benchmarks Initiative - 2018 - Benchmarking Low-power Wireless Networking.pdf}
+}
+
+@inproceedings{jacob2014directPath,
+  title = {{{directPath}}: An {{Expert Path Planning Framework}} to {{Handle Environment Knowledge}}},
+  booktitle = {Cyber {{Technology}} in {{Automation}}, {{Control}}, and {{Intelligent Systems}} ({{CYBER}}), 2014 {{IEEE}} 4th {{Annual International Conference}} On},
+  author = {Jacob, Romain and Hedrick, J Karl},
+  year = {2014},
+  pages = {7--12},
+  publisher = {{IEEE}},
+  doi = {10.1109/CYBER.2014.6917427},
+  url = {https://doi.org/10.1109/CYBER.2014.6917427},
+  copyright = {All rights reserved}
+}
+
+@inproceedings{jacob2015Opacity,
+  title = {Opacity of {{Discrete Event Systems}}: Models, Validation and Quantification},
+  booktitle = {{{DCDS15}}},
+  author = {Jacob, Romain and Lesage, Jean-Jacques and Faure, Jean-Marc},
+  year = {2015},
+  month = may,
+  pages = {174--181},
+  address = {{Cancun, Mexico}},
+  doi = {10.1016/j.ifacol.2015.06.490},
+  url = {https://hal.archives-ouvertes.fr/hal-01139890v2/},
+  copyright = {All rights reserved},
+  keywords = {Discrete event systems,Enforcement Quantification,Opacity,Privacy,Secrecy,Security,Validation,Verification}
+}
+
+@inproceedings{jacob2016DRP,
+  title = {End-to-{{End Real}}-{{Time Guarantees}} in {{Wireless Cyber}}-{{Physical Systems}}},
+  booktitle = {2016 {{IEEE Real}}-{{Time Systems Symposium}} ({{RTSS}})},
+  author = {Jacob, Romain and Zimmerling, Marco and Huang, Pengcheng and Beutel, Jan and Thiele, Lothar},
+  year = {2016},
+  month = nov,
+  pages = {167--178},
+  doi = {10.1109/RTSS.2016.025},
+  url = {https://www.research-collection.ethz.ch/handle/20.500.11850/221542},
+  abstract = {In cyber-physical systems (CPS), the communication among the sensing, actuating, and computing elements is often subject to hard real-time constraints. Real-time communication among wireless network interfaces and real-time scheduling for complex, dynamic applications have been intensively studied. Despite these major efforts, there is still a significant gap to fill. In particular, the integration of several real-time components to provide end-to-end real-time guarantees between interfaces of distributed applications in wireless CPS is an unsolved problem. We thus present a distributed protocol that considers the complete transmission chain including peripheral busses, memory accesses, networking interfaces, and the wireless real-time protocol. Our protocol provably guarantees that message buffers along this chain do not overflow and that all messages received at the destination application interface meet their end-to-end deadlines. To achieve this while being adaptive to unpredictable changes in the system and the real-time traffic requirements, our protocol establishes at run-time a set of contracts among all major elements of the transmission chain based on a worst-case delay and buffer analysis of the overall system. Using simulations, we validate that our analytic bounds are both safe and tight.},
+  copyright = {All rights reserved},
+  keywords = {complete transmission chain,cyber-physical systems,Delays,distributed protocol,end-to-end real-time guarantees,Fasteners,protocols,Protocols,radio networks,real-time scheduling,Real-time systems,Spread spectrum communication,Wireless communication,wireless CPS,wireless cyber-physical systems,wireless network interfaces,wireless real-time protocol,Wireless sensor networks},
+  file = {/home/user/Zotero/storage/CPKAA9VQ/Jacob et al. - 2016 - End-to-End Real-Time Guarantees in Wireless Cyber-.pdf;/home/user/Zotero/storage/UMFE2JLY/7809853.html}
+}
+
+@article{jacob2016Observable,
+  title = {Observable {{Feedback Control}} of Discrete Processes under Time Constraint: Application to {{Cluster Tools}}},
+  author = {Jacob, Romain and Amari, Sa{\"i}d},
+  year = {2016},
+  month = aug,
+  journal = {International Journal of Computer Integrated Manufacturing},
+  doi = {10.1080/0951192X.2016.1224391},
+  url = {https://hal.archives-ouvertes.fr/hal-01274963},
+  copyright = {All rights reserved}
+}
+
+@article{jacob2016Overview,
+  title = {Overview of Discrete Event Systems Opacity: Models, Validation, and Quantification},
+  author = {Jacob, Romain and Lesage, Jean-Jacques and Faure, Jean-Marc},
+  year = {2016},
+  journal = {Annual Reviews in Control},
+  volume = {41},
+  pages = {135--146},
+  issn = {1367-5788},
+  doi = {10.1016/j.arcontrol.2016.04.015},
+  url = {https://hal.archives-ouvertes.fr/hal-01274956},
+  abstract = {Abstract Over the last decade, opacity of discrete event systems (DES) has become a very fertile field of research. Driven by safety and privacy concerns in network communications and online services, much theoretical work has been conducted in order to design opaque systems. A system is opaque if an external observer in unable to infer a secret about the system behavior. This paper aims to review the most commonly used techniques of opacity validation for deterministic models and opacity quantification for probabilistic ones. Available complexity results are also provided. Finally, we review existing tools for opacity validation and current applications.},
+  copyright = {All rights reserved},
+  keywords = {Discrete event systems,Opacity}
+}
+
+@misc{jacob2016Realtime,
+  title = {Towards {{Real}}-Time {{Wireless Cyber}}-Physical {{Systems}}},
+  author = {Jacob, Romain and Zimmerling, Marco and Huang, Pengcheng and Beutel, Jan and Thiele, Lothar},
+  year = {2016},
+  annotation = {ECRTS 2016 - WiP session},
+  file = {/home/user/Zotero/storage/RUTK4R6E/Poster Abstract.pdf;/home/user/Zotero/storage/US2AFVTZ/Jacob et al. - 0206 - Towards Real-time Wireless Cyber-physical Systems.pdf}
+}
+
+@article{jacob2017TTW_extended,
+  title = {{{TTW}}: A {{Time}}-{{Triggered}}-{{Wireless Design}} for {{CPS}} [ {{Extended}} Version ]},
+  shorttitle = {{{TTW}}},
+  author = {Jacob, Romain and Zhang, Licong and Zimmerling, Marco and Beutel, Jan and Chakraborty, Samarjit and Thiele, Lothar},
+  year = {2017},
+  month = nov,
+  journal = {arXiv:1711.05581 [cs]},
+  eprint = {1711.05581},
+  eprinttype = {arxiv},
+  primaryclass = {cs},
+  url = {http://arxiv.org/abs/1711.05581},
+  urldate = {2017-11-16},
+  abstract = {Wired field buses have proved their effectiveness to support Cyber-Physical Systems (CPS). However, in avionics, for ease of deployment, or for new functionality featuring mobile devices, there is a strong interest for wireless solutions. Low-power wireless protocols have been proposed, but requirements of a large class of CPS applications can still not be satisfied. This paper presents Time-Triggered-Wireless (TTW), a distributed low-power wireless system design that minimizes energy consumption and offers end-to-end timing predictability, adaptability, reliability, low latency. Our evaluation shows a reduction of communication latency by a factor 2x and of energy consumption by 33-40\% compared to state-of-the-art approaches. This validates the suitability of TTW for wireless CPS applications and opens the way for implementation and real-world experience with industry partners.},
+  archiveprefix = {arXiv},
+  copyright = {All rights reserved},
+  keywords = {Computer Science - Networking and Internet Architecture},
+  file = {/home/user/Zotero/storage/HEU63TAY/Jacob et al. - 2017 - TTW A Time-Triggered-Wireless Design for CPS [ Ex.pdf;/home/user/Zotero/storage/IWG5GE3F/1711.html}
+}
+
+@misc{jacob2018Providing,
+  title = {Providing {{Guarantees}} in {{Wireless Cyber}}-{{Physical Systems}}},
+  author = {Jacob, Romain},
+  year = {2018},
+  month = jan,
+  doi = {10.3929/ethz-b-000238145},
+  url = {https://www.research-collection.ethz.ch/handle/20.500.11850/238145},
+  urldate = {2018-02-02},
+  copyright = {http://rightsstatements.org/page/InC-NC/1.0/},
+  langid = {english},
+  file = {/home/user/Zotero/storage/XZWQZ3DK/Jacob - 2018 - Providing Guarantees in Wireless Cyber-Physical Sy.pdf;/home/user/Zotero/storage/45DJ6VTG/238145.html}
+}
+
+@inproceedings{jacob2019Baloo,
+  title = {Synchronous {{Transmissions Made Easy}}: Design {{Your Network Stack}} with {{Baloo}}},
+  booktitle = {Proceedings of the 2019 {{International Conference}} on {{Embedded Wireless Systems}} and {{Networks}}},
+  author = {Jacob, Romain and B{\"a}chli, Jonas and Da Forno, Reto and Thiele, Lothar},
+  year = {2019},
+  doi = {10.3929/ethz-b-000324254},
+  url = {https://doi.org/10.3929/ethz-b-000324254},
+  file = {/home/user/Zotero/storage/8ZDHBN2F/Jacob et al. - 2019 - Synchronous Transmissions Made Easy Design Your N.pdf}
+}
+
+@inproceedings{jacob2019datasetLQE,
+  title = {Dataset: Wireless {{Link Quality Estimation}} on {{FlockLab}} \textendash{} and {{Beyond}}},
+  booktitle = {Proceedings of the 2nd International Workshop on Data Acquisition to Analysis ({{DATA}})},
+  author = {Jacob, Romain and Forno, Reto Da and Tr{\"u}b, Roman and Biri, Andreas and Thiele, Lothar},
+  year = {2019},
+  month = nov,
+  publisher = {{ACM}},
+  address = {{New York, NY, USA}},
+  doi = {10.3929/ethz-b-000355846},
+  url = {https://doi.org/10.3929/ethz-b-000355846}
+}
+
+@misc{jacob2019IoTBench,
+  title = {{{IoTBench}} - {{Past}}, Present, and Future of a Community-Driven Benchmarking Initiative},
+  author = {Jacob, Romain and Schuss, Markus},
+  year = {2019},
+  month = apr,
+  address = {{Montr\'eal, QC, Canada}},
+  doi = {10.3929/ethz-b-000339242},
+  url = {https://www.research-collection.ethz.ch/handle/20.500.11850/339242},
+  urldate = {2019-04-24},
+  abstract = {Since the first discussions in 2016, the IoTBench initiative has come a long way. The community has sketched a roadmap to improve the reproducibility and comparability of low-power wireless networking experiments. We have now started the journey and the gaps are being filled. In this talk, we will present the vision, the end goal, and our proposed strategy by the IoTBench initiative to get there. We will review what has been done, what is ongoing, and most importantly, what is ahead. The talk will be directly followed by an open discussion with all workshop participants. Because ultimately, everyone needs to be involved if we want our community's practices to change and improve.},
+  copyright = {http://creativecommons.org/licenses/by/4.0/},
+  langid = {english},
+  file = {/home/user/Zotero/storage/Q7ET2KKB/Jacob and Schuss - 2019 - IoTBench - Past, present, and future of a communit.pdf;/home/user/Zotero/storage/T4IXGFYM/339242.html}
+}
+
+@inproceedings{jacob2019Methodology,
+  title = {Towards a {{Methodology}} for {{Experimental Evaluation}} in {{Low}}-{{Power Wireless Networking}}},
+  booktitle = {Proceedings of the 2nd {{Workshop}} on {{Benchmarking Cyber}}-{{Physical Systems}} and {{Internet}} of {{Things}} ({{CPS}}-{{IoTBench}}'19)},
+  author = {Jacob, Romain and Boano, Carlo Alberto and Raza, Usman and Zimmerling, Marco and Thiele, Lothar},
+  year = {2019},
+  month = apr,
+  doi = {10.3929/ethz-b-000325096},
+  url = {https://www.research-collection.ethz.ch/handle/20.500.11850/325096},
+  abstract = {Making experimental research on low-power wireless networking repeatable, reproducible, and comparable is a long overdue step that hinders a wide acceptance of this technology within the industry. In this paper, we start to fill this gap by proposing and applying a well-defined methodology that specifies how to plan and execute experiments, as well as how to report their results. We further discuss potential definitions for repeatability, replicability, and reproducibility in the context of low-power wireless networking.},
+  file = {/home/user/Zotero/storage/IAD3ZGD8/Jacob et al. - 2019 - Towards a Methodology for Experimental Evaluation .pdf}
+}
+
+@misc{jacob2019Methodologya,
+  title = {Towards a {{Methodology}} for {{Experimental Evaluation}} in {{Low}}-{{Power Wireless Networking}}},
+  author = {Jacob, Romain},
+  year = {2019},
+  month = apr,
+  address = {{Montr\'eal, QC, Canada}},
+  doi = {10.3929/ethz-b-000349885},
+  url = {https://www.research-collection.ethz.ch/handle/20.500.11850/349885},
+  urldate = {2019-06-28},
+  abstract = {Making experimental research on low-power wireless networking repeatable, reproducible, and comparable is a long overdue step that hinders a wide acceptance of this technology within the industry. In this paper, we start to fill this gap by proposing and applying a well-defined methodology that specifies how to plan and execute experiments, as well as how to report their results. We further discuss potential definitions for repeatability, replicability, and reproducibility in the context of low-power wireless networking.},
+  copyright = {http://creativecommons.org/licenses/by/4.0/},
+  langid = {english},
+  file = {/home/user/Zotero/storage/AQ2F8G3E/Jacob - 2019 - Towards a Methodology for Experimental Evaluation .pdf;/home/user/Zotero/storage/3JTHL2LS/349885.html}
+}
+
+@phdthesis{jacob2019thesis,
+  type = {Doctoral {{Thesis}}},
+  title = {Dissertation: Pre-Release},
+  author = {{Romain Jacob}},
+  year = {2019},
+  month = oct,
+  doi = {10.5281/zenodo.3510184},
+  url = {https://zenodo.org/record/3510184},
+  urldate = {2019-10-19},
+  abstract = {Creation of the repository},
+  file = {/home/user/Zotero/storage/CPVYKVCE/3510185.html}
+}
+
+@misc{jacob2020IoTBench,
+  title = {{{IoTBench}}: Reproducibility Challenge in Wireless Networking Research},
+  author = {Jacob, Romain},
+  year = {2020},
+  month = oct,
+  publisher = {{OSF}},
+  address = {{Virtual}},
+  url = {https://osf.io/m7a6w/},
+  urldate = {2020-10-05},
+  abstract = {Wireless technology is everywhere. Paradoxically, the more pervasive the technology gets, the more fragile it becomes, since wireless performance is highly sensitive to other neighboring communication which we generally refer to as interference. This interference varies a lot over time, it is very costly to monitor, intractable to model, and almost impossible to reproduce. Consequently, what confidence can we have on performance results when we cannot reproduce the interference? Should we give up on reproducibility? No. We shall succeed or die trying! (or run out of funding, whatever happens first) In this talk, I introduce the IoTBench initiative (https://www.iotbench.ethz.ch/), which aims to define standard benchmarks for the performance evaluation of wireless technologies such as Bluetooth Low Energy or LoRa that are commonly used in IoT devices and wireless sensor networks. I describe the particular reproducibility challenge we faced and our ongoing efforts to address it.},
+  langid = {english},
+  file = {/home/user/Zotero/storage/Z28QMITR/m7a6w.html}
+}
+
+@phdthesis{jacob2020Leveraging,
+  type = {Doctoral {{Thesis}}},
+  title = {Leveraging {{Synchronous Transmissions}} for the {{Design}} of {{Real}}-Time {{Wireless Cyber}}-{{Physical Systems}}},
+  author = {Jacob, Romain},
+  year = {2020},
+  doi = {10.3929/ethz-b-000401717},
+  url = {https://www.research-collection.ethz.ch/handle/20.500.11850/401717},
+  urldate = {2020-02-26},
+  abstract = {Cyber-Physical Systems (CPS) refer to systems where some intelligence is embedded into devices that interact with their environment; that is, collecting information from the physical space, processing that information, and taking actions that affect the environment. Automatically turning the heating on when room temperature gets cold is one of the simplest example of CPS. Things get more complex when applications are distributed between low-power devices that should operate autonomously for multiple years. Then, performing reliable and energy efficient wireless communication becomes paramount. Moreover, applications often specify deadlines; that is, maximal tolerable delays between the execution of distributed tasks. Systems that guarantee to meet such deadlines are called real-time systems. Wireless CPS capable of providing real-time guarantees while using low-power communication technology are desirable but they are particularly challenging to design. In the past few years, a technique known as synchronous transmissions (ST) has been shown to enable reliable and energy efficient communication in low-power multi-hop networks. In a nutshell, ST consists in letting multiple devices transmit a packet during the same time interval; communication is likely to be successful if the transmissions are well synchronized, hence the name of synchronous transmissions. ST can be leveraged to realize any multi-hop broadcast \textendash{} a one-to-all communication \textendash{} in a given time; a very interesting property for designing real-time systems.  While the potential of ST is recognized by the low-power wireless academic community, this technique has not yet been leveraged for the design of CPS. We identify at least three issues that limit the adoption of ST in this domain: (i) ST is difficult to use due to stringent time synchronization requirements: in the order of {$\mu$}s. There is a lack of tools to facilitate the implementation of ST by CPS engineers, which are often not wireless communication experts. (ii) There are only few examples showcasing the use of ST for CPS applications and academic works based on ST tend to focus on communication rather than applications. Convincing proof-of-concept CPS applications are missing. (iii) The inherent variability of the wireless environment makes performance evaluation challenging. The lack of an agreed-upon methodology hinders experiment reproduciblility and limits the confidence in the performance claims.  Consequently, we developed support tools and methods to facilitate the evaluation of wireless protocols and the implementation of CPS based on ST. Furthermore, we leveraged ST to design two CPS solutions targeting different classes of real-time applications. This dissertation presents these contributions.  In Chapter 2, we propose to design and analyze performance evaluation experiments for networking protocols using a concrete, rational, and statistically sound methodology. We implement this methodology in a framework called TriScale which allows to make performance claims with quantifiable levels of confidence. Furthermore, we leverage the TriScale framework to propose the first formalized definition of reproducibility for networking experiments.  Chapter 3 presents Baloo, a flexible design framework for network stacks based on ST. Users implement their protocol through the programming interface offered by Baloo while the framework handles the complex low- level operations; e.g., meeting the time synchronization requirements of ST. We show that Baloo is flexible enough to implement a wide variety of commu- nication protocols while introducing only limited memory and energy overhead.  Finally, we design and implement two wireless CPS based on ST: \textendash{} the Distributed Real-time Protocol (DRP) uses contracts to maximize the flexibility of execution between distributed tasks (Chapter 4); \textendash{} Time-Triggered Wireless (TTW ) statically co-schedules all task executions and packet transfers to minimize end-to-end latency (Chapter 5). We demonstrate that real-time guarantees can be provided in a reliable and energy efficient manner. Furthermore, TTW supports update rates of tens of ms, which is sufficient to perform distributed closed-loop control of inverted pendulums \textendash{} a fundamental benchmark for control and robotic applications.  With this dissertation, we showcase that ST is suitable to meet the requirements of real-time wireless CPS. Furthermore, we facilitate the implementation of such systems with Baloo, a design framework that makes ST accessible to the non-expert. Finally, TriScale provides an important building block to confidently evaluate the performance of networking protocols \textendash{} an essential building block of wireless CPS. Building on TriScale, it would be useful to define benchmark problems representative of different classes of applications to serve as baseline for the evaluation of future wireless CPS solutions. Ultimately, we must transition from proof-of-concepts to real-world wireless CPS applications; this would be further facilitated by porting Baloo to newer and more powerful platforms, thereby pushing the limits of achievable performance levels.},
+  copyright = {http://creativecommons.org/licenses/by/4.0/},
+  langid = {english},
+  school = {ETH Zurich},
+  annotation = {Accepted: 2020-02-26T08:48:57Z},
+  file = {/home/user/Zotero/storage/9VBGPXNM/401717.html}
+}
+
+@misc{jacob2020STdataset,
+  title = {Synchronous Transmissions on {{Bluetooth}} 5 and {{IEEE}} 802.15.4 - {{A}} Replication Study ({{Version}} 1.0)},
+  author = {Jacob, Romain and Schaper, Anna-Brit},
+  year = {2020},
+  month = jul,
+  publisher = {{Zenodo}},
+  doi = {10.5281/zenodo.3964355},
+  url = {https://zenodo.org/record/3964355},
+  urldate = {2020-07-28}
+}
+
+@inproceedings{jacob2020Synchronous,
+  title = {Synchronous Transmissions on {{Bluetooth}} 5 and {{IEEE}} 802.15.4 \textendash{} {{A}} Replication Study},
+  booktitle = {3rd {{Workshop}} on {{Benchmarking Cyber}}-{{Physical Systems}} and {{Internet}} of {{Things}} ({{CPS}}-{{IoTBench}}'20)},
+  author = {Jacob, Romain and Schaper, Anna-Brit and Biri, Andreas and Da Forno, Reto and Thiele, Lothar},
+  year = {2020},
+  month = sep,
+  url = {https://openreview.net/forum?id=BSZPNEUHiS2},
+  urldate = {2020-10-05},
+  abstract = {This paper presents an experimental campaign comparing the performance of synchronous transmissions on Bluetooth and IEEE 802.15.4 using the nRF52840 platform.},
+  langid = {english},
+  file = {/home/user/Zotero/storage/SLH838AM/Jacob et al. - 2020 - Synchronous transmissions on Bluetooth 5 and IEEE .pdf;/home/user/Zotero/storage/TJNMBMHE/forum.html}
+}
+
+@inproceedings{jacob2020TriScalea,
+  title = {{{TriScale}}: A {{Framework Supporting Replicable Performance Evaluations}} in {{Networking}}},
+  shorttitle = {{{TriScale}}},
+  author = {Jacob, Romain and Zimmerling, Marco and Boano, Carlo Alberto and Vanbever, Laurent and Thiele, Lothar},
+  year = {2020},
+  month = feb,
+  url = {https://zenodo.org/record/3656819#.Xk10CHVKgoI},
+  urldate = {2020-02-19},
+  abstract = {This paper is currently anonymous for purpose of double-blind review. The raw data can be found in the related Zenodo repository:~doi.org/10.5281/zenodo.3657510 The TriScale code is available on GitHub:~https://github.com/TriScale-Anon/triscale},
+  langid = {english},
+  annotation = {jacob2020TriScale},
+  file = {/home/user/Zotero/storage/QR9BTX6G/Anonymous - 2020 - TriScale A Framework Supporting Reproducible Perf.pdf}
+}
+
+@inproceedings{jacob2020TTW,
+  title = {The {{Time}}-{{Triggered Wireless Architecture}}},
+  booktitle = {32nd {{Euromicro Conference}} on {{Real}}-{{Time Systems}} ({{ECRTS}} 2020)},
+  author = {Jacob, Romain and Zhang, Licong and Zimmerling, Marco and Beutel, Jan and Chakraborty, Samarjit and Thiele, Lothar},
+  editor = {V{\"o}lp, Marcus},
+  year = {2020},
+  series = {Leibniz {{International Proceedings}} in {{Informatics}} ({{LIPIcs}})},
+  volume = {165},
+  pages = {19:1--19:25},
+  publisher = {{Schloss Dagstuhl\textendash Leibniz-Zentrum f\"ur Informatik}},
+  address = {{Dagstuhl, Germany}},
+  issn = {1868-8969},
+  doi = {10.4230/LIPIcs.ECRTS.2020.19},
+  url = {https://doi.org/10.4230/LIPIcs.ECRTS.2020.19},
+  urldate = {2021-11-04},
+  abstract = {Wirelessly interconnected sensors, actuators, and controllers promise greater flexibility, lower installation and maintenance costs, and higher robustness in harsh conditions than wired solutions. However, to facilitate the adoption of wireless communication in cyber-physical systems (CPS), the functional and non-functional properties must be similar to those known from wired architectures. We thus present Time-Triggered Wireless (TTW), a wireless architecture for multi-mode CPS that offers reliable communication with guarantees on end-to-end delays among distributed applications executing on low-cost, low-power embedded devices. We achieve this by exploiting the high reliability and deterministic behavior of a synchronous transmission based communication stack we design, and by coupling the timings of distributed task executions and message exchanges across the wireless network by solving a novel co-scheduling problem. While some of the concepts in TTW have existed for some time and TTW has already been successfully applied for feedback control and coordination of multiple mechanical systems with closed-loop stability guarantees, this paper presents the key algorithmic, scheduling, and networking mechanisms behind TTW, along with their experimental evaluation, which have not been known so far. TTW is open source and ready to use: ttw.ethz.ch},
+  isbn = {978-3-95977-152-8},
+  keywords = {Computer Science - Networking and Internet Architecture,synchronous transmissions,Time-triggered architecture,wireless bus},
+  file = {/home/user/Zotero/storage/SFS9U654/Jacob et al. - 2020 - The Time-Triggered Wireless Architecture.pdf;/home/user/Zotero/storage/34CGSEWD/12382.html}
+}
+
+@misc{jacobFlockLabLinkQuality,
+  title = {Wireless {{Link Quality Estimation}} on {{FlockLab}} - and {{Beyond}}},
+  author = {Jacob, Romain and Da Forno, Reto and Tr{\"u}b, Roman and Biri, Andreas and Thiele, Lothar},
+  year = {2019},
+  month = jul,
+  publisher = {{Zenodo}},
+  doi = {10.5281/zenodo.3354717},
+  url = {https://zenodo.org/record/3354717},
+  urldate = {2019-07-30},
+  copyright = {Creative Commons Attribution 4.0 International, Open Access}
+}
+
+@inproceedings{jacobTTWTimeTriggeredWirelessDesign2017,
+  title = {{{TTW}}: A {{Time}}-{{Triggered}}-{{Wireless Design}} for {{CPS}}},
+  shorttitle = {{{TTW}}},
+  booktitle = {15th {{ACM Conference}} on {{Embedded Networked Sensor Systems}} ({{SenSys}} 2017)},
+  author = {Jacob, Romain and Zhang, Licong and Zimmerling, Marco and Beutel, Jan and Chakraborty, Samarjit and Thiele, Lothar},
+  year = {2017},
+  month = nov,
+  doi = {10.23919/DATE.2018.8342127},
+  url = {https://www.research-collection.ethz.ch/handle/20.500.11850/375611},
+  urldate = {2019-11-05},
+  copyright = {http://creativecommons.org/licenses/by/4.0/},
+  langid = {english},
+  file = {/home/user/Zotero/storage/U4SAB6II/375611.html}
+}
+
+@mastersthesis{jonathancandel2018Dynamic,
+  title = {Dynamic {{Range Low}}-Power {{Wireless Protocols}} for {{Environmental Monitoring}}},
+  author = {{Jonathan Candel}},
+  year = {2018},
+  month = jun,
+  doi = {10.3929/ethz-b-000276222},
+  url = {https://www.research-collection.ethz.ch/handle/20.500.11850/276222},
+  urldate = {2018-07-17},
+  abstract = {In the rapidly advancing world of wireless embedded systems, sensor networks (WSNs) are becoming increasingly more applicable for data gathering applications. When designed for such applications, the design goals are most often defined in terms of communication reliability, flexible data-rates, and network life-time. One of the application domains that will benefit from improvement in these metrics, is the area of environmental monitoring. Of particular interest is the use of sensor networks in cryosphere research. To monitor the stability of high-alpine mountain slopes, several low-power wireless communication protocols have been proposed and deployed over time. Among them are the Low-Power Wireless Bus (LWB) and Dozer protocols, introduced by the TIK research group at ETH Zurich. In their own way, both LWB and Dozer have proven to be efficient and reliable means of wireless communication. Being tested in the field, these state of the art communication protocols have been operational in previous monitoring systems for over a decade. However, even whilst being functional, these prior deployment's processing, bandwidth, and storage capacities remain limited. In an effort to construct a new monitoring system, the aim is to include a communication protocol that shows favorable scaling properties in battery life (duty cycle) versus bandwidth. Determining which protocol to choose, however, remains problematic due to the lack of appropriate performance data. To address this issue, this report studies the currently deployed solutions (LWB and Dozer) by deriving predictive models and comparing both protocols' performance in terms of duty cycle versus bandwidth. In doing so, this report shows that: (i) given a 10-node network, the Dozer and LWB analytical models can predict the duty cycle with approximately 95 percent accuracy when compared to the actual implementation; (ii) an alteration of the topology control for Dozer (in a 10-node network) can lead to improvements in duty cycle of up to 40 percent without significantly impacting the stability; (iii) LWB shows more favorable results in terms of duty cycle when compared to the normal Dozer implementation, but is only favorable in low bandwidth situations when compared to Dozer with improved topology control; (iv) given a 10-minute window, Dozer experiences less instability events, such as packet re-transmissions or beacon misses. LWB shows more stability issues, but the additional radio on-time is limited as the slot sizes are of fixed duration. Both protocols are reliable in the sense that no packets are lost. With previous findings taken into consideration, if it is possible to adjust the topology control for Dozer for a given network, a combination of LWB and Dozer might offer the most optimal solution.},
+  copyright = {http://rightsstatements.org/page/InC-NC/1.0/},
+  langid = {english},
+  school = {ETH Zurich, TU Eindhoven},
+  file = {/home/user/Zotero/storage/FIVR66AY/Candel - 2018 - Dynamic Range Low-power Wireless Protocols for Env.pdf;/home/user/Zotero/storage/ZGNT22ZE/276222.html}
+}
+
+@phdthesis{koskinas2019reproducibility,
+  type = {Semester {{Thesis}}},
+  title = {Is Low-Power Wireless Networking a Reproducible Science?},
+  author = {Koskinas, Antonios},
+  year = {2019},
+  month = jan,
+  doi = {10.3929/ethz-b-000324251},
+  url = {https://www.research-collection.ethz.ch/handle/20.500.11850/324251},
+  urldate = {2019-10-24},
+  abstract = {Recently, a noticeable number of attempts to reproduce experimental results across many different scientific fields were unsuccessful. In the field of low- power wireless networking, the dynamic behavior of the environment causes an inherited variability in the performance of wireless networking protocols, placing under consideration their reproducibility. In this semester project, a methodology for evaluating the performance of low- power wireless networking protocols targeted for periodic, non real-time data collection applications is proposed. In addition, we present a case study, where we apply the proposed methodology to evaluate the performance of a state-of-the-art low-power protocol, Crystal. Finally, based on this methodology, we propose definitions for repeatability, replicability and reproducibility in the context of low-power wireless networking.},
+  copyright = {http://rightsstatements.org/page/InC-NC/1.0/},
+  langid = {english},
+  school = {ETH Zurich},
+  file = {/home/user/Zotero/storage/43KBM2VB/Koskinas - 2019 - Is low-power wireless networking a reproducible sc.pdf;/home/user/Zotero/storage/XDNTC3PN/324251.html}
+}
+
+@inproceedings{mager2019Demo,
+  title = {Demo {{Abstract}}: Fast {{Feedback Control}} and {{Coordination}} with {{Mode Changes}} for {{Wireless Cyber}}-{{Physical Systems}}},
+  shorttitle = {Demo {{Abstract}}},
+  booktitle = {Proceedings of the 18th {{International Conference}} on {{Information Processing}} in {{Sensor Networks}}  - {{IPSN}} '19},
+  author = {Mager, Fabian and Baumann, Dominik and Jacob, Romain and Thiele, Lothar and Trimpe, Sebastian and Zimmerling, Marco},
+  year = {2019},
+  eprint = {1906.05554},
+  eprinttype = {arxiv},
+  pages = {340--341},
+  doi = {10.1145/3302506.3312483},
+  url = {http://arxiv.org/abs/1906.05554},
+  urldate = {2019-06-14},
+  abstract = {This abstract describes the first public demonstration of feedback control and coordination of multiple physical systems over a dynamic multi-hop low-power wireless network with update intervals of tens of milliseconds. Our running system can dynamically change between different sets of application tasks (e.g., sensing, actuation, control) executing on the spatially distributed embedded devices, while closed-loop stability is provably guaranteed even across those so-called mode changes. Moreover, any subset of the devices can move freely, which does not affect closed-loop stability and control performance as long as the wireless network remains connected.},
+  archiveprefix = {arXiv},
+  keywords = {Computer Science - Networking and Internet Architecture},
+  file = {/home/user/Zotero/storage/XJLJDUG2/Mager et al. - 2019 - Demo Abstract Fast Feedback Control and Coordinat.pdf}
+}
+
+@inproceedings{mager2019Feedback,
+  title = {Feedback {{Control Goes Wireless}}: Guaranteed {{Stability}} over {{Low}}-Power {{Multi}}-Hop {{Networks}}},
+  shorttitle = {Feedback {{Control Goes Wireless}}},
+  booktitle = {Proceedings of the 10th {{ACM}}/{{IEEE International Conference}} on {{Cyber}}-{{Physical Systems}}},
+  author = {Mager, Fabian and Baumann, Dominik and Jacob, Romain and Thiele, Lothar and Trimpe, Sebastian and Zimmerling, Marco},
+  year = {2019},
+  series = {{{ICCPS}} '19},
+  pages = {97--108},
+  publisher = {{ACM}},
+  address = {{Montreal, Quebec, Canada}},
+  doi = {10.1145/3302509.3311046},
+  url = {http://doi.acm.org/10.1145/3302509.3311046},
+  urldate = {2019-04-23},
+  abstract = {Closing feedback loops fast and over long distances is key to emerging applications; for example, robot motion control and swarm coordination require update intervals of tens of milliseconds. Low-power wireless technology is preferred for its low cost, small form factor, and flexibility, especially if the devices support multi-hop communication. So far, however, feedback control over wireless multi-hop networks has only been shown for update intervals on the order of seconds. This paper presents a wireless embedded system that tames imperfections impairing control performance (e.g., jitter and message loss), and a control design that exploits the essential properties of this system to provably guarantee closed-loop stability for physical processes with linear time-invariant dynamics. Using experiments on a cyber-physical testbed with 20 wireless nodes and multiple cart-pole systems, we are the first to demonstrate and evaluate feedback control and coordination over wireless multi-hop networks for update intervals of 20 to 50 milliseconds.},
+  isbn = {978-1-4503-6285-6},
+  keywords = {closed-loop stability,cyber-physical systems,multi-agent systems,multi-hop networks,synchronous transmissions,wireless control},
+  file = {/home/user/Zotero/storage/5VKNSPRS/Mager et al. - 2019 - Feedback Control Goes Wireless Guaranteed Stabili.pdf}
+}
+
+@inproceedings{magerCompetitionLowPowerWireless2019,
+  title = {Competition: Low-{{Power Wireless Bus Baseline}}},
+  booktitle = {16th {{International Conference}} on {{Embedded Wireless Systems}} and {{Networks}} ({{EWSN}} 2019)},
+  author = {Mager, Fabian and Jacob, Romain and Forno, Reto Da and Zimmerling, Marco},
+  year = {2019},
+  month = feb,
+  series = {{{EWSN}} '19},
+  pages = {2},
+  publisher = {{Junction Publishing}},
+  url = {https://wwwpub.zih.tu-dresden.de/~mzimmerl/pubs/mager19competition.pdf},
+  abstract = {The Low-Power Wireless Bus (LWB) is a communication protocol for low-power wireless multi-hop networks that was published in 2012. It provides a shared-bus abstraction for higher layer protocols and hides the complexity of the underlying network. Internally, LWB uses fast and reliable Glossy floods to exchange information within the network, thus supporting arbitrary traffic patterns. The original code base was never officially released, so we are participating in this competition with two goals: 1) to provide a baseline against which other protocols can be compared, and 2) to make a clean and refactored version of the code base publicly available.},
+  langid = {english},
+  file = {/home/user/Zotero/storage/PCYFEBQ9/Mager et al. - Competition Low-Power Wireless Bus Baseline.pdf}
+}
+
+@inproceedings{mueller2019Competition,
+  title = {Competition: Keep It {{Simple}}, {{Let Flooding Shine}}},
+  shorttitle = {Competition},
+  booktitle = {16th {{International Conference}} on {{Embedded Wireless Systems}} and {{Networks}} ({{EWSN}} 2019)},
+  author = {Mueller, Jan and Schaper, Anna-Brit and Jacob, Romain and Da Forno, Reto},
+  year = {2019},
+  month = feb,
+  doi = {10.3929/ethz-b-000325870},
+  url = {https://www.research-collection.ethz.ch/handle/20.500.11850/325870},
+  urldate = {2019-02-20},
+  abstract = {This abstract presents our solutions to the EWSN 2019 Dependability Competition. We designed generic yet performant solutions by leveraging the flexibility of Baloo, a design framework tailored to synchronous transmissions. Instead of crafting subtle optimizations to match the Competition requirements, we used some well-known concepts and combined them efficiently to propose simple yet robust and efficient protocols. Keep it simple, let flooding shine!},
+  copyright = {http://creativecommons.org/licenses/by/4.0/},
+  langid = {english},
+  file = {/home/user/Zotero/storage/A6844AZW/Mueller et al. - 2019 - Competition Keep it Simple, Let Flooding Shine.pdf;/home/user/Zotero/storage/FRCAQ3BK/325870.html}
+}
+
+@phdthesis{mueller2019Lowpower,
+  type = {Semester {{Thesis}}},
+  title = {Low-Power Network Design: Work Hard, Play Hard},
+  shorttitle = {Low-Power Network Design},
+  author = {Mueller, Jan},
+  year = {2019},
+  month = jan,
+  doi = {10.3929/ethz-b-000324247},
+  url = {https://www.research-collection.ethz.ch/handle/20.500.11850/324247},
+  urldate = {2019-02-20},
+  abstract = {Competing in a well-known competition in a field that you have no experience in can be hard for sure. In this semester thesis, we describe how we managed to design a low-power wireless protocol for a sensor network in less than 3 months of part-time work. Baloo is a novel protocol design framework, which offers an abstraction layer from the underlying hardware and enables fast protocol prototyping. Using Baloo, our goal was to create a protocol to compete in the annual EWSN dependability competition by borrowing different design ideas from various protocols described in literature.},
+  copyright = {http://rightsstatements.org/page/InC-NC/1.0/},
+  langid = {english},
+  school = {ETH Zurich},
+  file = {/home/user/Zotero/storage/IYPGS8CN/Mueller - 2019 - Low-power network design work hard, play hard.pdf;/home/user/Zotero/storage/XY6QMATN/324247.html}
+}
+
+@mastersthesis{raphaelschnider2020Pushing,
+  title = {Pushing the {{Internet}} to the {{Edge}}},
+  author = {{Raphael Schnider}},
+  year = {2020},
+  month = jan,
+  doi = {10.3929/ethz-b-000401663},
+  url = {https://www.research-collection.ethz.ch/handle/20.500.11850/401663},
+  abstract = {In recent years the trend has been to connect any device to the internet to remotely sense or actuate objects, a concept called "Internet of Things". Forecasts predict billions of devices to be deployed and connected in the coming years. To make such large scale deployments feasible, existing network infrastructure has to be reused as much as possible. The IP protocol is essential for todays internet and therefore must be supported by IoT devices to provide connectivity with traditional internet-capable devices. However applying the traditional TCP/IP stack to those networks is a challenge because they must typically operate with constrained resources. To achieve IP connectivity within low-power wireless multi-hop networks (WSN), current industry standards rely on routing within the WSN. Such routing-based networks have been shown to perform poorly in scenarios with mobile devices. An IoT network stack which supports reliable webservice-like interactions between traditional internet-capable devices and mobile IoT devices is needed. Synchronous transmissions based on Glossy offer promising performance for mobile scenarios: 1. up to 99.99 \% reliability, 2. fast network floods, 3. great mobility support because no topology-dependent state is present. This thesis proposes to leverage the mobility support of synchronous transmissions and combine it with the exibility of IP in an application-independent way. In this document the design and implementation of a proof-of-concept of such a network stack is presented. This stack shows a much improved mobility support compared to RPL, the routing protocol used by most current IoT standards. These results should motivate further research in synchronous transmissions for IoT which will hopefully lead to a standardized general-purpose protocol.},
+  copyright = {http://rightsstatements.org/page/InC-NC/1.0/},
+  langid = {english},
+  school = {ETH Zurich},
+  file = {/home/user/Zotero/storage/4AFBUL8S/Schnider - 2020 - Pushing the Internet to the Edge.pdf;/home/user/Zotero/storage/EVWP4FCJ/401663.html}
+}
+
+@misc{repoBaloo,
+  title = {Baloo: Latest Release},
+  shorttitle = {Baloo},
+  author = {Jacob, Romain and Forno, Reto Da and B{\"a}chli, Jonas},
+  year = {2019},
+  month = oct,
+  doi = {10.5281/zenodo.3510171},
+  url = {https://doi.org/10.5281/zenodo.3510171},
+  urldate = {2019-11-04},
+  howpublished = {Zenodo},
+  keywords = {concurrent transmissions,glossy,low-power communication,network stack,synchronous transmissions,wireless},
+  file = {/home/user/Zotero/storage/HA8VH7NW/3510172.html}
+}
+
+@misc{repoTTW,
+  title = {{{TTW Artifacts}} - {{Initial}} Release},
+  author = {Jacob, Romain and Zhang, Licong},
+  year = {2020},
+  month = apr,
+  doi = {10.5281/zenodo.3759222},
+  keywords = {concurrent transmissions,glossy,low-power communication,network stack,synchronous transmissions,wireless}
+}
+
+@phdthesis{schaper2019LowPower,
+  type = {Semester {{Thesis}}},
+  title = {Low-{{Power Network Design}}: Work {{Hard}}, {{Play Hard}}: Data {{Collection}}},
+  shorttitle = {Low-{{Power Network Design}}},
+  author = {Schaper, Anna-Brit},
+  year = {2019},
+  month = jan,
+  doi = {10.3929/ethz-b-000324250},
+  url = {https://www.research-collection.ethz.ch/handle/20.500.11850/324250},
+  urldate = {2019-02-20},
+  abstract = {With the rapid expansion of the Internet of Things, an increasing number of applications relies on reliable, energy-efficient, and low-latency communication between small networked wireless devices. A large number of wireless communication protocols dealing with these challenges have been proposed in recent years. Their performance typically varies greatly with the application and environment they are used in. The EWSN Dependability Competition aims to achieve some comparability between solutions by evaluating a protocols under the same conditions. To encourage protocols that are as generally applicable as possible, the 2019 edition introduces some controlled variation to the evaluation conditions. Traditionally, designing and implementing a communication protocol that provides good performance in such a complex scenario required a deep understanding of the entire communication stack used by the nodes as well as a large amount of development time.  Our goal in this project is to show that this is no longer the case thanks to Baloo, a novel design framework for communication protocols based on Synchronous Transmissions. We demonstrate this by participating in the 2019 EWSN Dependability Competition with our own protocol based on Baloo, which was developed and implemented within just a few weeks by students with little prior experience in the field of wireless networks. Early testing during the preparation phase of the competition has indicated that our protocol should be able to deliver comparable performance to other competing solutions in terms of reliability, latency and energy consumption across some input conditions.},
+  copyright = {http://rightsstatements.org/page/InC-NC/1.0/},
+  langid = {english},
+  school = {ETH Zurich},
+  file = {/home/user/Zotero/storage/SH9Z5TE5/Schaper - 2019 - Low-Power Network Design Work Hard, Play Hard Da.pdf;/home/user/Zotero/storage/PFHXUC46/324250.html}
+}
+
+@mastersthesis{schaper2019Truth,
+  title = {Truth Be Told: Benchmarking {{BLE}} and {{IEEE}} 802.15.4},
+  shorttitle = {Truth Be Told},
+  author = {{Anna-Brit Schaper}},
+  year = {2019},
+  month = nov,
+  doi = {10.3929/ethz-b-000375332},
+  url = {https://www.research-collection.ethz.ch/handle/20.500.11850/375332},
+  urldate = {2019-11-07},
+  abstract = {A large body of recent flooding-based communication protocol proposals for wire- less sensor networks exploit concurrent transmissions (CT). Many existing pro- tocols are designed to run on the IEEE 802.15.4 physical layer. Thus, there is extensive research on the conditions required for successfully receiving CT over IEEE 802.15.4. While IEEE 802.15.4 is popular in the research community, Blue- tooth Low Energy (BLE) has experienced a much wider commercial adoption. BLE's ubiquity makes its physical layers an attractive potential alternative for CT-based protocols. In this project, we performed an experimental investigation of the conditions required for the successful reception of CT over IEEE 802.15.4 and the five phys- ical layer options supported by BLE. We focused on the impact of the choice of physical layer protocol, differences in packet contents and the time and power offsets between the transmissions. Our experiments were performed in an ane- choic chamber using nRF52840 dongles. We tested a wide range of parameter combinations. To make our results more accessible, we created an interactive visualisation of our data.},
+  copyright = {http://rightsstatements.org/page/InC-NC/1.0/},
+  langid = {english},
+  school = {ETH Zurich},
+  file = {/home/user/Zotero/storage/QBZPULJM/Schaper - 2019 - Truth be told Benchmarking BLE and IEEE 802.15.4.pdf;/home/user/Zotero/storage/JLDUGK42/375332.html}
+}
+
+@misc{sutton2017System,
+  title = {A {{System Architecture}} for {{Wireless Codetection}} of {{Acoustic Events}}},
+  author = {Sutton, Felix and Da Forno, Reto and Meyer, Matthias and Jacob, Romain and Lim, Roman and Gsell, Tonio and Beutel, Jan and Thiele, Lothar},
+  year = {2017},
+  annotation = {2017 NanoTera Annual Meeting},
+  file = {/home/user/Zotero/storage/835CJN22/Sutton et al. - 2017 - A System Architecture for Wireless Codetection of .pdf}
+}
+
+@phdthesis{walter2017Realtime,
+  type = {Semester {{Thesis}}},
+  title = {Real-Time Network Functions for the {{Internet}} of {{Things}}},
+  author = {Walter, Fabian},
+  year = {2017},
+  month = jun,
+  doi = {10.3929/ethz-b-000234920},
+  url = {https://www.research-collection.ethz.ch/handle/20.500.11850/234920},
+  urldate = {2018-02-12},
+  abstract = {The Internet of Things is evolving, more and more devices are getting connected, more data exchanged and increasingly complex tasks are handled by these net- works. Especially, low-power wireless communication networks are widely used due to the flexibility and fast deployment with a battery. The networks must be at low cost and still guarantee a long battery life time and compute a com- plex task. The goal of this thesis is to evaluate the outsourcing of a potentially complex task, e.g. real-time scheduling, to another processor and enable a real- time functionality for the whole network. The goal is a proof of concepts of the scheduler outsourcing by evaluating the implementation at the system-level, combining hardware, scheduler and network protocol.  Many algorithms to support real-time functionalities are already developed, but the implementation for existing low-power systems with a single processor is difficult. Low power systems with a single core are often resource limited in memory and computational power. Multiple processors can be used to overcome this problem, but challenges with the interprocessor communication arises. The Dual-Processor Platform (DPP) enables a partition of the tasks between a very low-power communication processor (CP) and more powerful application processor (AP). The CP will be used to handle wireless communication based on the Low-power Wireless Bus (LWB), which is a best-effort network pro- tocol. The Blink scheduler is used to enable the real-time functionality in the network. The potentially complex and memory demanding Blink scheduler is outsourced to the AP. Further, the LWB round structure is adapted, which leverages the DPP platform and allows the computation of the next schedule on the AP while the communication is ongoing on the CP. Therefore, the delay for outsourcing the scheduler is becoming neglectable when the wireless network communication has sufficient many slots per round. In the end, the limitations like additional interprocessor communication delays are analysed and potential improvements are evaluated.},
+  copyright = {http://rightsstatements.org/page/InC-NC/1.0/},
+  langid = {english},
+  school = {ETH Zurich},
+  file = {/home/user/Zotero/storage/3FKFKHUC/Walter - 2017 - Real-time network functions for the Internet of Th.pdf;/home/user/Zotero/storage/F7KC4RDA/234920.html}
+}
+
+

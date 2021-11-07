@@ -1,11 +1,11 @@
 # Site settings
-title: JSys
-email: editor@jsys.org
-description: Journal of Systems Research
-baseurl: ""                           # the subpath of your site, e.g. /blog/
-url: "http://jsys.org" # the base hostname & protocol for your site
-twitter_username: jsysresearch
-github_username:  jsysresearch
+title: Romain Jacob
+email: jacobr@ethz.ch
+description: My personal website
+baseurl: "/website/"                    # the subpath of your site, e.g. /blog/
+url: "https://romain-jacob.github.io/" # the base hostname & protocol for your site
+twitter_username: RJacobPartner
+github_username:  romain-jacob
 
 social:
   rss: feed.xml
@@ -31,10 +31,10 @@ scholar:
   # group_by: type
   # group_order: ascending
 
-  source: ./_bibliography
-  bibliography: jsys.bib
+  source: /_bibliography
+  bibliography: 1_Webpage.bib
   bibliography_template: bib
-  repository: _papers
+  # repository: _papers
 
   replace_strings: true
   join_strings:    true
