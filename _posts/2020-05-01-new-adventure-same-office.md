@@ -1,9 +1,9 @@
 ---
-layout: post
+layout: single
 type: blog
 title: Starting a new adventure! … from the same office
 date: 2020-05-01
-categories: news (Job, Science ?)
+categories: news
 ---
 
 # Starting a new adventure! … from the same office

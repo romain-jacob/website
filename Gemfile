@@ -1,4 +1,2 @@
-source 'https://rubygems.org'
-
-gem "jekyll"
-gem "jekyll-scholar"
+gem "minimal-mistakes-jekyll"
+gem "jekyll-paginate-v2"

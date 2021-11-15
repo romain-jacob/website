@@ -1,0 +1,14 @@
+# main links
+main:
+  - title: "About"
+    url: /
+  - title: "Research"
+    url: /research
+  - title: "Teaching"
+    url: /teaching
+  - title: "Science Comm."
+    url: /sci-comm
+  - title: "Pledge to Open Science"
+    url: /pledge
+  - title: "Blog"
+    url: /blog

@@ -1,7 +1,6 @@
 ---
-layout: page
-menutitle: Research
-permalink: /research/
+layout: single
+permalink: /research
 ---
 
 # Research
