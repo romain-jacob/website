@@ -26,28 +26,23 @@ I am an [Open Science enthusiast](https://www.romainjacob.net/pledge-to-open-sci
 {% for post in site.posts limit:50 %}
 {% if post.type == "news" %}
   <tr>
-      <td>
+      <td width="12%">
           <span class="post-meta">{{ post.date | date: "%Y %b" }}</span>
       </td>
-      <td colspan="2"> 
+      <td> 
         {{ post.title }}
+      </td>
+      <td rowspan="2" width="15%" class="image_column bottom_row">
+        {% if post.image %}
+        <a href="{{post.image_link}}"><img src="{{post.image}}" alt="{{post.image_title}}"></a>
+        {% endif %}
       </td>
   </tr>
   <tr>
-      {% if post.image %}
       <td></td>
-      <td>
+      <td width="58%" class="bottom_row">
           {{ post.content }}
       </td>
-      <td>
-          <a href="{{post.image_link}}"><img src="{{post.image}}" alt="{{post.image_title}}"></a>
-      </td>
-      {% else %}
-      <td></td>
-      <td colspan="2">
-          {{ post.content }}
-      </td>
-      {% endif %}
   </tr>
 {% endif %}
 {% endfor %}

@@ -4,6 +4,41 @@
 
 @charset "utf-8";
 
+/* My custom CSS */
+a {
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+$orange:rgb(255,153,51);
+$dark-orange: #ab4401;
+
+$link-color: $dark-orange;
+$link-color-hover: $orange;
+$link-color-visited: $dark-orange;
+$primary-color: $orange;
+
+// \definecolor{orange}{RGB}{255,153,51}
+// \definecolor{lightorange}{RGB}{255,235,214}
+// \definecolor{darkorange}{RGB}{171,68,1} % #ab4401
+// \definecolor{darkerorange}{RGB}{171,68,1}
+
+// \definecolor{lightgrey}{RGB}{242,242,242}
+// \definecolor{midgrey}{RGB}{191,191,191}
+// \definecolor{darkgrey}{RGB}{90,90,90}
+
+// \definecolor{darkblue}{RGB}{29,117,180}
+// \definecolor{lightblue}{RGB}{205,224,220}
+
+// \definecolor{darkred}{RGB}{255,32,33}
+// \definecolor{lightred}{RGB}{255,128,129}
+
+// \definecolor{darkgreen}{RGB}{101,178,50}
+// \definecolor{lightgreen}{RGB}{170,223,135}
+
 /* Animations */
 $intro-transition  : none; // Disabling page transition animation
 
