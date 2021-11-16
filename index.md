@@ -23,7 +23,7 @@ I am an [Open Science enthusiast](https://www.romainjacob.net/pledge-to-open-sci
 ## Highlights
 
 <table>
-{% for post in site.posts limit:5 %}
+{% for post in site.posts limit:50 %}
 {% if post.type == "news" %}
   <tr>
       <td>

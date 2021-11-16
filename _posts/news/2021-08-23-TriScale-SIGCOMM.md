@@ -18,8 +18,9 @@ Last week, I held a half-day tutorial about [TriScale at ACM SIGCOMM](https://co
 
 Check-it out and spread the word! Let's foster replicability in networking research!
 
-- [Tutorial recording (1h40)](https://youtu.be/KVA0MZszI-4)
-- [Tutorial slides](https://osf.io/9cvnd/)
-- [TriScale paper](https://doi.org/10.5281/zenodo.3464273)
-- [TriScale website](http://triscale.ethz.ch/)
-- [Hands-on material](https://github.com/romain-jacob/triscale/blob/master/tutorial/README.md)
+|---|---|
+|<i class="fab fa-youtube"></i>| [Tutorial recording (1h40)](https://youtu.be/KVA0MZszI-4)|
+|<i class="fas fa-desktop"></i>| [Tutorial slides](https://osf.io/9cvnd/)|
+|<i class="fas fa-file"></i>| [TriScale paper](https://doi.org/10.5281/zenodo.3464273)|
+|<i class="fas fa-globe"></i>| [TriScale website](http://triscale.ethz.ch/)|
+|<i class="fas fa-pen-square"></i>| [Hands-on material](https://github.com/romain-jacob/triscale/blob/master/tutorial/README.md)|

@@ -1,8 +1,6 @@
 ---
 layout: single
 permalink: /sci-comm
-pagination: 
-  enabled: true
 ---
 
 <h1>Science Communication</h1>
@@ -19,11 +17,11 @@ You will find here some of my attempts to tell a bit about what I do...
 </p>
 
 <ul>
-{% for post in paginator.posts %}{% if post.type == "scicomm" %}
+{% for post in site.posts %}{% if post.type == "scicomm" %}
   <li>{{ post.title }}</li>{% endif %}{% endfor %}
 </ul>
 
-{% for post in paginator.posts  %}
+{% for post in site.posts  %}
 <!-- {% if post.type == "scicomm" %} -->
   {{ post.content }}
 <!-- {% endif %} -->

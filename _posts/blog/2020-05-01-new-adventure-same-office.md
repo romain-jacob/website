@@ -4,9 +4,13 @@ type: blog
 title: Starting a new adventure! … from the same office
 date: 2020-05-01
 categories: news
+permalink: /blog/2020-05-new-adventure-same-office
+image: /assets/images/20191114_120124.resized-624x304.jpg
+image_link: 
+image_title: "Napping on Wadi Rum (Jordan)"
 ---
 
-# Starting a new adventure! … from the same office
+![{{page.image_title}}]({{page.image}})
 
 A few months ago, I completed my doctoral studies, which I was lucky enough to carry on at ETH Zurich, Switzerland. Now what’s next?
 
