@@ -1,6 +1,6 @@
 ---
 layout: single
-permalink: /pledge
+permalink: /pledge-to-open-science
 ---
 
 # Pledge to Open Science
