@@ -7,7 +7,8 @@ permalink: /pledge-to-open-science
 
 I am convinced that some practices in science needs to change.
 
-I am not the kind a person that waits for others to do what I consider important. Therefore, and inspired by [Erin McKiernan](https://emckiernan.wordpress.com/pledge/), I hereby pledged to watch my own actions and commit to [openness](https://opendefinition.org/).
+I am not the kind a person that waits for others to do what I consider important.  
+Therefore, and inspired by [Erin McKiernan](https://emckiernan.wordpress.com/pledge/), I hereby pledged to watch my own actions and commit to [openness](https://opendefinition.org/).
 
 - I will not edit, review, or work for closed or hybrid access journals or conferences.
 - I will publish only in open access journals or conferences; at least when I am the lead author.
@@ -26,7 +27,7 @@ I am not the kind a person that waits for others to do what I consider important
 This pledge is available and citable with a DOI [via OSF](https://www.doi.org/10.17605/OSF.IO/KEVDX).
 
 I discussed this pledge on the radio show [Doctor You](https://open.spotify.com/show/16o8uuXgx3wlOOUTg2yVcl?si=Dpe9-6yGShajgvFXe-BrcA) in September 2019.  
-<i class="fas fa-microphone"></i> [Podcast](https://open.spotify.com/episode/7IlvIVkjvTcL8EX2EsFCHl?si=Dpe9-6yGShajgvFXe-BrcA) (~40min)
+<i class="fas fa-microphone"></i> &nbsp; [Podcast](https://open.spotify.com/episode/7IlvIVkjvTcL8EX2EsFCHl?si=Dpe9-6yGShajgvFXe-BrcA) (~40min)
 
 > If I am going to "make it" in science, it has to be on terms I can live with.  
 -- Erin McKiernan

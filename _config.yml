@@ -239,7 +239,7 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
-  # - jekyll-scholar
+  - jekyll-scholar
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -301,6 +301,42 @@ defaults:
       share: false # true
       related: false # true
       classes: wide
+
+
+############################################################
+# Jekyll-scholar settings
+scholar:
+  style: acm-siggraph
+  # style: chicago-fullnote-bibliography
+  locale: en
+
+  bibliography_list_tag: ul
+  sort_by: year,month #,type,area
+  order: descending,descending #ascending,ascending,ascending,ascending
+
+  # group_by: type
+  # group_order: ascending
+
+  source: ./_data
+  bibliography: Papers.bib
+  bibliography_template: bib
+  # repository: _papers # to link pdf hosted with the website
+
+  replace_strings: true
+  join_strings:    true
+
+  # use_raw_bibtex_entry: true
+  bibtex_filters:
+  - superscript
+  - latex
+
+  details_dir:    bibliography
+  details_layout: bibtex.html
+  details_link:   ""
+
+  query: "@*"
+
+
 
 ############################################################
 # Site configuration for the Jekyll 3 Pagination Gem
