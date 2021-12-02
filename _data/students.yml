@@ -1,0 +1,122 @@
+# List of students I supervised
+
+list:
+
+  # =================
+  # Doctoral students
+  # =================
+
+  - name: "Alexander Dietmüller"
+    type: D
+    year: Ongoing
+    thesis-title: 
+    thesis-url: 
+
+  - name: "Tobias Bühler"
+    type: D
+    year: Ongoing
+    thesis-title: 
+    thesis-url:
+
+  # ==============
+  # Undergraduates
+  # ==============
+  
+  - name: "Zhengqing Liu"
+    type: S
+    year: 2021
+    thesis-title: "Replication of `Data Driven Connectivity' in P4"
+    thesis-url: https://doi.org/10.3929/ethz-b-000504320
+    lead-to-pub: 
+  
+  - name: "Kévin Selänne"
+    type: S
+    year: 2021
+    thesis-title: "Process Mining for Networking"
+    thesis-url: https://doi.org/10.3929/ethz-b-000493245
+    lead-to-pub: 
+  
+  - name: "Fredrik Nestaas"
+    type: B
+    year: 2021
+    thesis-title: "In Search of Network Shifts"
+    thesis-url: https://doi.org/10.3929/ethz-b-000493385
+    lead-to-pub: 
+  
+  - name: "Raphael Schnider"
+    type: M
+    year: 2020
+    thesis-title: "Pushing the Internet to the Edge"
+    thesis-url: https://doi.org/10.3929/ethz-b-000401663
+    lead-to-pub: 
+  
+  - name: "Anna-Brit Schaper"
+    type: M
+    year: 2019
+    thesis-title: "Truth be told: Benchmarking BLE and IEEE 802.15.4"
+    thesis-url: https://doi.org/10.3929/ethz-b-000375332
+    lead-to-pub: true
+  
+  - name: "Jan Müller"
+    type: S
+    year: 2019
+    thesis-title: "Low-Power Network Design: Work Hard, Play Hard (I)"
+    thesis-url: https://doi.org/10.3929/ethz-b-000324247
+    lead-to-pub: 
+  
+  - name: "Anna-Brit Schaper"
+    type: S
+    year: 2019
+    thesis-title: "Low-Power Network Design: Work Hard, Play Hard (II)"
+    thesis-url: https://doi.org/10.3929/ethz-b-000324250
+    lead-to-pub: 
+  
+  - name: "Antonios Koskinas"
+    type: S
+    year: 2019
+    thesis-title: "Is low-power wireless networking a reproducible science?"
+    thesis-url: https://doi.org/10.3929/ethz-b-000324251
+    lead-to-pub: 
+  
+  - name: "Jonathan Candel"
+    type: M
+    year: 2018
+    thesis-title: "Dynamic Range Low-power Wireless Protocols for Environmental Monitoring"
+    thesis-url: https://doi.org/20.500.11850/276222
+    lead-to-pub: 
+  
+  - name: "Jonas Bächli"
+    type: M
+    year: 2018    
+    thesis-title: "Creating a Flexible Middleware for Low-Power Flooding Protocols"
+    thesis-url: https://doi.org/20.500.11850/270388
+    lead-to-pub: true
+  
+  - name: "Andreas Biri"
+    type: S
+    year: 2017
+    thesis-title: "Unleashing the Potential of Real-Time Internet of Things"
+    thesis-url: https://doi.org/20.500.11850/234913
+    lead-to-pub: 
+  
+  - name: "Alexander Dietmüller"
+    type: S
+    year: 2017
+    thesis-title: "Fault-Tolerance Mechanisms for Glossy-Based Wireless Communication Networks"
+    thesis-url: https://doi.org/20.500.11850/234924
+    lead-to-pub: 
+  
+  - name: "Fabian Walter"
+    type: S
+    year: 2017
+    thesis-title: "Real-Time Network Functions for the Internet of Things"
+    thesis-url: https://doi.org/20.500.11850/234920
+    lead-to-pub: 
+  
+  - name: "Jonas Bächli"
+    type: S
+    year: 2016
+    thesis-title: "A Protocol Gateway for the Internet of Things"
+    thesis-url: https://pub.tik.ee.ethz.ch/students/2016-FS/SA-2016-03.pdf
+    lead-to-pub: 
+  
