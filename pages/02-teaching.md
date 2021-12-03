@@ -13,13 +13,21 @@ To learn more about my teaching philosophy, have a look at my [teaching statemen
 ## Courses
 
 <!-- [https://nbviewer.jupyter.org/github/romain-jacob/doc_public/blob/main/courses.pdf](https://nbviewer.jupyter.org/github/romain-jacob/doc_public/blob/main/courses.pdf) -->
-<object data="https://nbviewer.jupyter.org/github/romain-jacob/doc_public/blob/main/courses.pdf" type="application/pdf" width="100%" height="150px">
+<!-- <object data="https://nbviewer.jupyter.org/github/romain-jacob/doc_public/blob/main/courses.pdf" type="application/pdf" width="100%" height="150px">
 <a href="https://nbviewer.jupyter.org/github/romain-jacob/doc_public/blob/main/courses.pdf">Courses list (PDF)</a>
-</object>
+</object> -->
 
 ## Students
 
 <!-- [https://nbviewer.jupyter.org/github/romain-jacob/doc_public/blob/main/courses.pdf](https://nbviewer.jupyter.org/github/romain-jacob/doc_public/blob/main/courses.pdf) -->
-<object data="https://nbviewer.jupyter.org/github/romain-jacob/doc_public/blob/main/students.pdf" type="application/pdf" width="100%" height="150px">
-<a href="https://nbviewer.jupyter.org/github/romain-jacob/doc_public/blob/main/students.pdf">Students list (PDF)</a>
-</object>
+<!-- <object data="https://nbviewer.jupyter.org/github/romain-jacob/doc_public/blob/main/students.pdf" type="application/pdf" width="100%" height="150px"> -->
+<!-- <a href="https://nbviewer.jupyter.org/github/romain-jacob/doc_public/blob/main/students.pdf">Students list (PDF)</a> -->
+<!-- </object> -->
+
+|---:|:---:|:---|
+{% for student in site.data.students.list -%}
+|{{student.year}}|[ {{student.type}} ]|{{student.name}}|
+{% if student.thesis-title -%}
+||{% if student.lead-to-pub %} <i class="fas fa-microphone"></i> {% endif %} |[{{student.thesis-title}}]({{student.thesis-url}})|
+{% endif -%}
+{%- endfor -%}
