@@ -1,8 +1,46 @@
 # List of courses I have been involved in
 
 courses:
-  - title: "SemNet"
+  - title: "Seminar in Communication Networks"
     place: "ETH Zurich"
-    years: "2021-2022"
+    years: "2021 -- 2022"
     position: Co-lecturer
     details: 
+
+  - title: "Discrete Event Systems"
+    place: "ETH Zurich"
+    years: "2021"
+    position: Co-lecturer
+    details: 
+
+  - title: "Advanced Topics in Communication Networks"
+    place: "ETH Zurich"
+    years: "2020 -- 2021"
+    position: Coordinator
+    details:  
+
+  - title: "Embedded Systems"
+    place: "ETH Zurich"
+    years: "2017 -- 2019"
+    position: Teaching assistant
+    details: Laboratory classes
+ 
+
+  - title: "Low-Power System Design"
+    place: "ETH Zurich"
+    years: "2017 -- 2019"
+    position: Teaching assistant
+    details: Laboratory classes
+ 
+
+  - title: "Discrete Event Systems"
+    place: "ETH Zurich"
+    years: "2015 -- 2017"
+    position: Teaching assistant
+    details: Exercises
+ 
+  - title: "Second year Mechanics course---kinematics, kinetics, and dynamics"
+    place: "Institute of Technology of Tremblay-en-France (France)"
+    years: "2014"
+    position: Lecturer
+    details: Lectures, exercises, and laboratory classes
