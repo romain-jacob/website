@@ -31,7 +31,8 @@ $garamond: Garamond, serif !default;
 
 $global-font-family: $sans-serif !default;
 $header-font-family: $sans-serif !default;
-$caption-font-family: $serif !default;
+// $caption-font-family: $serif !default;
+$caption-font-family: $sans-serif !default;
 
 /* type scale */
 $type-size-1: 2.441em !default; // ~39.056px
@@ -65,7 +66,7 @@ $background-color: #fff !default;
 $code-background-color: #fafafa !default;
 $code-background-color-dark: $light-gray !default;
 $text-color: $dark-gray !default;
-$muted-text-color: mix(#fff, $text-color, 20%) !default;
+$muted-text-color: mix(#fff, $text-color, 40%);
 $border-color: $lighter-gray !default;
 $form-background-color: $lighter-gray !default;
 $footer-background-color: $lighter-gray !default;

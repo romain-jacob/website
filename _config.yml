@@ -241,6 +241,7 @@ plugins:
   - jekyll-include-cache
   - jekyll-scholar
   - jekyll-redirect-from
+  - jekyll-figure
 
 # mimic GitHub Pages with --safe
 whitelist:
