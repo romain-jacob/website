@@ -5,15 +5,16 @@ title: Curating your professional network
 date: 2022-01-12
 categories: random
 permalink: /blog/2020-01-networking
+header:
+    og_image: /assets/images/2022-01_networking.png
 image: /assets/images/2022-01_networking.png
-image_link: 
+image_link:
 image_title: "My 2022 email picture: Me and my daughter focused on our task."
 ---
 
 {% figure caption:"{{page.image_title}}" class:"blog-image" %}
 ![{{page.image_title}}]({{page.image}})
 {% endfigure %}
-
 
 As a young researcher, you are often told that "it's important to network," that you should know a lot of people, and that they should know you. I agree, it's important. But this post is not about building up your network.
 
