@@ -14,7 +14,7 @@ list:
 
   - name: "Tobias Bühler"
     type: D
-    year: Ongoing
+    year: #Ongoing
     thesis-title: 
     thesis-url:
 
@@ -31,14 +31,14 @@ list:
   
   - name: "Kévin Selänne"
     type: S
-    year: 2021
+    year: #2021
     thesis-title: "Process Mining for Networking"
     thesis-url: https://doi.org/10.3929/ethz-b-000493245
     lead-to-pub: 
   
   - name: "Fredrik Nestaas"
     type: B
-    year: 2021
+    year: #2021
     thesis-title: "In Search of Network Shifts"
     thesis-url: https://doi.org/10.3929/ethz-b-000493385
     lead-to-pub: 
@@ -59,21 +59,21 @@ list:
   
   - name: "Jan Müller"
     type: S
-    year: 2019
+    year: #2019
     thesis-title: "Low-Power Network Design: Work Hard, Play Hard (I)"
     thesis-url: https://doi.org/10.3929/ethz-b-000324247
     lead-to-pub: 
   
   - name: "Anna-Brit Schaper"
     type: S
-    year: 2019
+    year: #2019
     thesis-title: "Low-Power Network Design: Work Hard, Play Hard (II)"
     thesis-url: https://doi.org/10.3929/ethz-b-000324250
     lead-to-pub: 
   
   - name: "Antonios Koskinas"
     type: S
-    year: 2019
+    year: #2019
     thesis-title: "Is low-power wireless networking a reproducible science?"
     thesis-url: https://doi.org/10.3929/ethz-b-000324251
     lead-to-pub: 
@@ -87,7 +87,7 @@ list:
   
   - name: "Jonas Bächli"
     type: M
-    year: 2018    
+    year: #2018    
     thesis-title: "Creating a Flexible Middleware for Low-Power Flooding Protocols"
     thesis-url: https://doi.org/20.500.11850/270388
     lead-to-pub: true
@@ -101,14 +101,14 @@ list:
   
   - name: "Alexander Dietmüller"
     type: S
-    year: 2017
+    year: #2017
     thesis-title: "Fault-Tolerance Mechanisms for Glossy-Based Wireless Communication Networks"
     thesis-url: https://doi.org/20.500.11850/234924
     lead-to-pub: 
   
   - name: "Fabian Walter"
     type: S
-    year: 2017
+    year: #2017
     thesis-title: "Real-Time Network Functions for the Internet of Things"
     thesis-url: https://doi.org/20.500.11850/234920
     lead-to-pub: 
