@@ -35,7 +35,7 @@ td {
 tr,
 td,
 th {
-  vertical-align: middle;
+  vertical-align: top;
 }
 
 .image_column {
@@ -45,4 +45,8 @@ th {
 
 .bottom_row {
   padding-bottom:3em;
+}
+
+.large_skip td {
+  padding: 0.2em 0.5em 0.7em 0em;
 }

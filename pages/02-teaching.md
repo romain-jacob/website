@@ -17,6 +17,18 @@ To learn more about my teaching philosophy, have a look at my [teaching statemen
 <a href="https://nbviewer.jupyter.org/github/romain-jacob/doc_public/blob/main/courses.pdf">Courses list (PDF)</a>
 </object> -->
 
+
+<table class="large_skip">
+{% for course in site.data.courses.list -%}
+    <tr>
+        <td style="text-align:right;">{{course.years}}&nbsp;&nbsp;&nbsp;&nbsp;</td>
+        <td style="white-space:pre;">{{course.title}}
+<span class="muted">{{course.place}}</span>
+{{course.position}}{%- if course.details %}<span class="muted"> -- {{course.details}}</span>{%- endif %}</td>
+    </tr>
+{%- endfor -%}
+</table>
+
 ## Students
 
 <!-- [https://nbviewer.jupyter.org/github/romain-jacob/doc_public/blob/main/courses.pdf](https://nbviewer.jupyter.org/github/romain-jacob/doc_public/blob/main/courses.pdf) -->
@@ -27,21 +39,15 @@ To learn more about my teaching philosophy, have a look at my [teaching statemen
 > Doctoral [ D ], master [ M ] semester [ S ] and bachelor theses [ B ] that I (co-)supervised.  
 > Undergraduate projects that led to a peer-reviewed publication are marked with <i class="fas fa-circle highlight"></i>.
 
-<table>
+<table class="large_skip">
 {% for student in site.data.students.list -%}
     <tr>
-        <td width="10%" style="text-align:right">{{student.year}}</td>
-        <td width="10%" style="text-align:center">[ {{student.type}} ]</td>
-        <td>{{student.name}}</td>
+        <td width="10%" style="text-align:right;">{{student.year}}</td>
+        <td width="10%" style="text-align:center; white-space:pre;" class="muted">[ {{student.type}} ]{% if student.thesis-title %}
+{%if student.lead-to-pub%}<i class="fas fa-circle highlight"></i>{%endif%}
+{%endif%}</td>
+        <td style="white-space:pre">{{student.name}}
+{% if student.thesis-title %}<a href="{{student.thesis-url}}">{{student.thesis-title}}</a>{%endif%}</td>
     </tr>
-    {% if student.thesis-title -%}
-    <tr>
-        <td></td>
-        <td style="text-align:center">{% if student.lead-to-pub %} <i class="fas fa-circle highlight"></i> {% endif %}</td>
-        <td>
-        <a href="{{student.thesis-url}}">{{student.thesis-title}}</a>
-        </td>
-    </tr>
-    {% endif -%}
 {%- endfor -%}
 </table>
