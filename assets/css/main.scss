@@ -5,13 +5,6 @@
 @charset "utf-8";
 
 /* My custom CSS */
-a {
-    text-decoration: none;
-
-    &:hover {
-        text-decoration: none;
-    }
-}
 
 $orange:rgb(255,153,51);
 $dark-orange: #ab4401;
@@ -20,6 +13,21 @@ $link-color: $dark-orange;
 $link-color-hover: $orange;
 $link-color-visited: $dark-orange;
 $primary-color: $orange;
+
+a {
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+.highlight {
+    color:$primary-color;
+}
+
+
+/* == My custom CSS == */
 
 // \definecolor{orange}{RGB}{255,153,51}
 // \definecolor{lightorange}{RGB}{255,235,214}

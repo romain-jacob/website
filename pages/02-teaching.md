@@ -24,10 +24,24 @@ To learn more about my teaching philosophy, have a look at my [teaching statemen
 <!-- <a href="https://nbviewer.jupyter.org/github/romain-jacob/doc_public/blob/main/students.pdf">Students list (PDF)</a> -->
 <!-- </object> -->
 
-|---:|:---:|:---|
+> Doctoral [ D ], master [ M ] semester [ S ] and bachelor theses [ B ] that I (co-)supervised.  
+> Undergraduate projects that led to a peer-reviewed publication are marked with <i class="fas fa-circle highlight"></i>.
+
+<table>
 {% for student in site.data.students.list -%}
-|{{student.year}}|[ {{student.type}} ]|{{student.name}}|
-{% if student.thesis-title -%}
-||{% if student.lead-to-pub %} <i class="fas fa-microphone"></i> {% endif %} |[{{student.thesis-title}}]({{student.thesis-url}})|
-{% endif -%}
+    <tr>
+        <td width="10%" style="text-align:right">{{student.year}}</td>
+        <td width="10%" style="text-align:center">[ {{student.type}} ]</td>
+        <td>{{student.name}}</td>
+    </tr>
+    {% if student.thesis-title -%}
+    <tr>
+        <td></td>
+        <td style="text-align:center">{% if student.lead-to-pub %} <i class="fas fa-circle highlight"></i> {% endif %}</td>
+        <td>
+        <a href="{{student.thesis-url}}">{{student.thesis-title}}</a>
+        </td>
+    </tr>
+    {% endif -%}
 {%- endfor -%}
+</table>
