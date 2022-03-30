@@ -186,6 +186,8 @@
   font-family: $sans-serif;
   z-index: 20;
   cursor: pointer;
+  text-align: center;
+  max-width: 200px;
 
   li:last-child {
     a {
