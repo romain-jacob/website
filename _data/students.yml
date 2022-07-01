@@ -22,9 +22,16 @@ list:
   # Undergraduates
   # ==============
 
+  - name: "Teodora Rajkovic"
+    type: B
+    year: 2022
+    thesis-title: "21st Century Data Visualization for Enhancing Student Learning"
+    thesis-url: https://doi.org/10.3929/ethz-b-000555768
+    lead-to-pub: 
+
   - name: "Lukas Röllin"
     type: S
-    year: 2022
+    year: 
     thesis-title: "Advancing Predictions for Video Streaming with Transformers"
     thesis-url: https://doi.org/10.3929/ethz-b-000531095
     lead-to-pub: 
