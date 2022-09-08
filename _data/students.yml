@@ -22,9 +22,17 @@ list:
   # Undergraduates
   # ==============
 
+  - name: "Siddhant Ray"
+    type: M
+    year: 2022
+    thesis-title: "Advancing Packet-Level Traffic Predictions with Transformers"
+    thesis-url: https://doi.org/10.3929/ethz-b-000569234
+    lead-to-pub: true
+
+
   - name: "Teodora Rajkovic"
     type: B
-    year: 2022
+    year: 
     thesis-title: "21st Century Data Visualization for Enhancing Student Learning"
     thesis-url: https://doi.org/10.3929/ethz-b-000555768
     lead-to-pub: 
