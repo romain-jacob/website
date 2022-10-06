@@ -5,6 +5,7 @@ jobs:
   build-and-deploy-website:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v3
       - name: Run build script
         run: ./publish.sh
         shell: bash
