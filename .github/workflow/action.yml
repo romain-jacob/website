@@ -1,0 +1,10 @@
+name: deploy-jekyll-site
+run-name: ${{ github.actor }} try saving some clicks
+on: [push]
+jobs:
+  build-and-deploy-website:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run build script
+        run: ./publish.sh
+        shell: bash
