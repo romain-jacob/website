@@ -3,7 +3,7 @@ layout: single
 author_profile: true
 ---
 
-> I'm currently migrating my personal webpage.  
+> I'm currently migrating my personal webpage (I know, it's been a while...)  
 > This is a work-in-progress. Sorry in advance for missing pieces and glitches!
 
 I am a postdoctoral researcher at ETH Zurich in the group of [Prof. Laurent Vanbever](https://nsg.ee.ethz.ch/people/laurent-vanbever/). My current research interests are focused on computer networks, communication protocols, (real-time) scheduling theory, and statistics applied to experimental design.
