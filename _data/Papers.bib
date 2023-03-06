@@ -12,7 +12,6 @@
   url = {https://doi.org/10.1145/3361846},
   urldate = {2020-01-23},
   abstract = {Closing feedback loops fast and over long distances is key to emerging cyber-physical applications; for example, robot motion control and swarm coordination require update intervals of tens of milliseconds. Low-power wireless communication technology is preferred for its low cost, small form factor, and flexibility, especially if the devices support multi-hop communication. Thus far, however, feedback control over multi-hop low-power wireless networks has only been demonstrated for update intervals on the order of seconds. To fill this gap, this article presents a wireless embedded system that supports dynamic mode changes and tames imperfections impairing control performance (e.g., jitter and message loss), and a control design that exploits the essential properties of this system to provably guarantee closed-loop stability for physical processes with linear time-invariant dynamics in the presence of mode changes. Using experiments on a cyber-physical testbed with 20 wireless devices and multiple cart-pole systems, we are the first to demonstrate and evaluate feedback control and coordination with mode changes over multi-hop networks for update intervals of 20 to 50 milliseconds.},
-  keywords = {closed-loop stability,cyber-physical systems,industrial Internet of Things,mode changes,multi-agent systems,multi-hop networks,synchronous transmissions,Wireless control},
   file = {/home/user/Zotero/storage/I4ZML9VS/Baumann et al. - 2019 - Fast Feedback Control over Multi-hop Wireless Netw.pdf}
 }
 
@@ -32,22 +31,34 @@
   file = {/home/user/Zotero/storage/MECLR7TQ/Boano et al. - 2018 - IoTBench Towards a Benchmark for Low-power Wirele.pdf;/home/user/Zotero/storage/ZL5XQ6S8/256517.html}
 }
 
+@misc{buhler2023Oscilloscope,
+  title = {Oscilloscope: {{Detecting BGP Hijacks}} in the {{Data Plane}}},
+  shorttitle = {Oscilloscope},
+  author = {B{\"u}hler, Tobias and Milolidakis, Alexandros and Jacob, Romain and Chiesa, Marco and Vissicchio, Stefano and Vanbever, Laurent},
+  year = {2023},
+  month = jan,
+  number = {arXiv:2301.12843},
+  eprint = {2301.12843},
+  eprinttype = {arxiv},
+  primaryclass = {cs},
+  publisher = {{arXiv}},
+  doi = {10.48550/arXiv.2301.12843},
+  url = {http://arxiv.org/abs/2301.12843},
+  urldate = {2023-01-31},
+  abstract = {The lack of security of the Internet routing protocol (BGP) has allowed attackers to divert Internet traffic and consequently perpetrate service disruptions, monetary frauds, and even citizen surveillance for decades. State-of-the-art defenses rely on geo-distributed BGP monitors to detect rogue BGP announcements. As we show, though, attackers can easily evade detection by engineering their announcements. This paper presents Oscilloscope, an approach to accurately detect BGP hijacks by relying on real-time traffic analysis. As hijacks inevitably change the characteristics of the diverted traffic, the key idea is to track these changes in real time and flag them. The main challenge is that "normal" Internet events (e.g., network reconfigurations, link failures, load balancing) also change the underlying traffic characteristics - and they are way more frequent than hijacks. Naive traffic analyses would hence lead to too many false positives. We observe that hijacks typically target a subset of the prefixes announced by Internet service providers and only divert a subset of their traffic. In contrast, normal events lead to more uniform changes across prefixes and traffic. Oscilloscope uses this observation to filter out non-hijack events by checking whether they affect multiple related prefixes or not. Our experimental evaluation demonstrates that Oscilloscope quickly and accurately detects hijacks in realistic traffic traces containing hundreds of events.},
+  archiveprefix = {arXiv},
+  file = {/home/user/Zotero/storage/QMGC8BAG/Bühler et al. - 2023 - Oscilloscope Detecting BGP Hijacks in the Data Pl.pdf;/home/user/Zotero/storage/752CBF39/2301.html}
+}
+
 @inproceedings{dietmuller2022new,
   title = {A New Hope for Network Model Generalization},
   booktitle = {{{HotNets}}},
   author = {Dietm{\"u}ller, Alexander and Ray, Siddhant and Jacob, Romain and Vanbever, Laurent},
   year = {2022},
   month = jul,
-  eprint = {2207.05843},
-  eprinttype = {arxiv},
-  primaryclass = {cs},
   publisher = {{arXiv}},
-  doi = {10.48550/arXiv.2207.05843},
-  url = {http://arxiv.org/abs/2207.05843},
-  urldate = {2022-07-22},
+  doi = {10.1145/3563766.3564104},
   abstract = {Generalizing machine learning (ML) models for network traffic dynamics tends to be considered a lost cause. Hence, for every new task, we often resolve to design new models and train them on model-specific datasets collected, whenever possible, in an environment mimicking the model's deployment. This approach essentially gives up on generalization. Yet, an ML architecture called\_Transformer\_ has enabled previously unimaginable generalization in other domains. Nowadays, one can download a model pre-trained on massive datasets and only fine-tune it for a specific task and context with comparatively little time and data. These fine-tuned models are now state-of-the-art for many benchmarks. We believe this progress could translate to networking and propose a Network Traffic Transformer (NTT), a transformer adapted to learn network dynamics from packet traces. Our initial results are promising: NTT seems able to generalize to new prediction tasks and contexts. This study suggests there is still hope for generalization, though it calls for a lot of future research.},
-  archiveprefix = {arXiv},
-  keywords = {Computer Science - Machine Learning,Computer Science - Networking and Internet Architecture},
   file = {/home/user/Zotero/storage/4VBF8JBP/Dietmüller et al. - 2022 - A new hope for network model generalization.pdf;/home/user/Zotero/storage/SSPQIIJ8/2207.html}
 }
 
@@ -74,7 +85,6 @@
   url = {https://www.research-collection.ethz.ch/handle/20.500.11850/221542},
   abstract = {In cyber-physical systems (CPS), the communication among the sensing, actuating, and computing elements is often subject to hard real-time constraints. Real-time communication among wireless network interfaces and real-time scheduling for complex, dynamic applications have been intensively studied. Despite these major efforts, there is still a significant gap to fill. In particular, the integration of several real-time components to provide end-to-end real-time guarantees between interfaces of distributed applications in wireless CPS is an unsolved problem. We thus present a distributed protocol that considers the complete transmission chain including peripheral busses, memory accesses, networking interfaces, and the wireless real-time protocol. Our protocol provably guarantees that message buffers along this chain do not overflow and that all messages received at the destination application interface meet their end-to-end deadlines. To achieve this while being adaptive to unpredictable changes in the system and the real-time traffic requirements, our protocol establishes at run-time a set of contracts among all major elements of the transmission chain based on a worst-case delay and buffer analysis of the overall system. Using simulations, we validate that our analytic bounds are both safe and tight.},
   copyright = {All rights reserved},
-  keywords = {complete transmission chain,cyber-physical systems,Delays,distributed protocol,end-to-end real-time guarantees,Fasteners,protocols,Protocols,radio networks,real-time scheduling,Real-time systems,Spread spectrum communication,Wireless communication,wireless CPS,wireless cyber-physical systems,wireless network interfaces,wireless real-time protocol,Wireless sensor networks},
   file = {/home/user/Zotero/storage/CPKAA9VQ/Jacob et al. - 2016 - End-to-End Real-Time Guarantees in Wireless Cyber-.pdf;/home/user/Zotero/storage/UMFE2JLY/7809853.html}
 }
 
@@ -156,7 +166,6 @@
   urldate = {2021-11-04},
   abstract = {Wirelessly interconnected sensors, actuators, and controllers promise greater flexibility, lower installation and maintenance costs, and higher robustness in harsh conditions than wired solutions. However, to facilitate the adoption of wireless communication in cyber-physical systems (CPS), the functional and non-functional properties must be similar to those known from wired architectures. We thus present Time-Triggered Wireless (TTW), a wireless architecture for multi-mode CPS that offers reliable communication with guarantees on end-to-end delays among distributed applications executing on low-cost, low-power embedded devices. We achieve this by exploiting the high reliability and deterministic behavior of a synchronous transmission based communication stack we design, and by coupling the timings of distributed task executions and message exchanges across the wireless network by solving a novel co-scheduling problem. While some of the concepts in TTW have existed for some time and TTW has already been successfully applied for feedback control and coordination of multiple mechanical systems with closed-loop stability guarantees, this paper presents the key algorithmic, scheduling, and networking mechanisms behind TTW, along with their experimental evaluation, which have not been known so far. TTW is open source and ready to use: ttw.ethz.ch},
   isbn = {978-3-95977-152-8},
-  keywords = {Computer Science - Networking and Internet Architecture,synchronous transmissions,Time-triggered architecture,wireless bus},
   file = {/home/user/Zotero/storage/SFS9U654/Jacob et al. - 2020 - The Time-Triggered Wireless Architecture.pdf;/home/user/Zotero/storage/34CGSEWD/12382.html}
 }
 
@@ -175,7 +184,19 @@
   abstract = {When designing their performance evaluations, networking researchers often encounter questions such as: How long should a run be? How many runs to perform? How to account for the variability across multiple runs? What statistical methods should be used to analyze the data? Despite their best intentions, researchers often answer these questions differently, thus impairing the replicability of their evaluations and the confidence in their results. In this paper, we propose a concrete methodology for the design and analysis of performance evaluations. Our approach hierarchically partitions the performance evaluation into three timescales, following the principle of separation of concerns. The idea is to understand, for each timescale, the temporal characteristics of variability sources, and then to apply rigorous statistical methods to derive performance results with quantifiable confidence in spite of the inherent variability. We implement this methodology in a software framework called TriScale. For each performance metric, TriScale computes a variability score that estimates, with a given confidence, how similar the results would be if the evaluation were replicated; in other words, TriScale quantifies the replicability of evaluations. We showcase the practicality and usefulness of TriScale on four different case studies demonstrating that TriScale helps to generalize and strengthen published results. Improving the standards of replicability in networking is a complex challenge. This paper is an important contribution to this endeavor; it provides networking researchers with a rational and concrete experimental methodology rooted in sound statistical foundations. The first of its kind.},
   artifacts_url = {https://github.com/romain-jacob/triscale},
   langid = {english},
-  review_url = {https://openreview.net/forum?id=c1LNi8CTPy6}
+  review_url = {https://openreview.net/forum?id=c1LNi8CTPy6},
+  keywords = {JSys,notion}
+}
+
+@article{jacob2022Internet,
+  title = {The {{Internet}} of Tomorrow Must Sleep More and Grow Old},
+  author = {Jacob, Romain and Vanbever, Laurent},
+  year = {2022},
+  month = jul,
+  pages = {8},
+  abstract = {Today, the ICT industry has a massive carbon footprint (a few percent of the worldwide emissions) and one of the fastest growth rates. The Internet accounts for a large part of that footprint while being also energy inefficient; i.e., the total energy cost per byte transmitted is very high. Thankfully, there are many ways to improve on the current status; we discuss two relatively unexplored directions in this paper. Putting network devices to ``sleep,'' i.e., turning them off, is known to be an efficient vector to save energy; we argue that harvesting this potential requires new routing protocols, better suited to devices switching on/off often, and revising the corresponding hardware/software co-design. Moreover, we can reduce the embodied carbon footprint by using networking hardware longer, and we argue that this could even be beneficial for reliability! We sketch our first ideas in these directions and outline practical challenges that we (as a community) need to address to make the Internet more sustainable.},
+  langid = {english},
+  file = {/home/user/Zotero/storage/M4C7KDR8/Jacob and Vanbever - The Internet of tomorrow must sleep more and grow .pdf}
 }
 
 @inproceedings{mager2019Feedback,
@@ -193,7 +214,5 @@
   urldate = {2019-04-23},
   abstract = {Closing feedback loops fast and over long distances is key to emerging applications; for example, robot motion control and swarm coordination require update intervals of tens of milliseconds. Low-power wireless technology is preferred for its low cost, small form factor, and flexibility, especially if the devices support multi-hop communication. So far, however, feedback control over wireless multi-hop networks has only been shown for update intervals on the order of seconds. This paper presents a wireless embedded system that tames imperfections impairing control performance (e.g., jitter and message loss), and a control design that exploits the essential properties of this system to provably guarantee closed-loop stability for physical processes with linear time-invariant dynamics. Using experiments on a cyber-physical testbed with 20 wireless nodes and multiple cart-pole systems, we are the first to demonstrate and evaluate feedback control and coordination over wireless multi-hop networks for update intervals of 20 to 50 milliseconds.},
   isbn = {978-1-4503-6285-6},
-  keywords = {closed-loop stability,cyber-physical systems,multi-agent systems,multi-hop networks,synchronous transmissions,wireless control},
   file = {/home/user/Zotero/storage/5VKNSPRS/Mager et al. - 2019 - Feedback Control Goes Wireless Guaranteed Stabili.pdf}
 }
-

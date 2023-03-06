@@ -22,9 +22,17 @@ list:
   # Undergraduates
   # ==============
 
+  - name: "Andri Furrer"
+    type: B
+    year: 2023
+    thesis-title: "Greening the Internet by putting networks to sleep"
+    thesis-url: https://doi.org/10.3929/ethz-b-000601681
+    lead-to-pub: 
+  
+
   - name: "Siddhant Ray"
     type: M
-    year: 2022
+    year: 
     thesis-title: "Advancing Packet-Level Traffic Predictions with Transformers"
     thesis-url: https://doi.org/10.3929/ethz-b-000569234
     lead-to-pub: true
