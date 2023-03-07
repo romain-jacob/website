@@ -1,52 +1,28 @@
-@article{baumann2019TCPS,
-  title = {Fast {{Feedback Control}} over {{Multi-hop Wireless Networks}} with {{Mode Changes}} and {{Stability Guarantees}}},
-  author = {Baumann, Dominik and Mager, Fabian and Jacob, Romain and Thiele, Lothar and Zimmerling, Marco and Trimpe, Sebastian},
-  year = {2019},
-  month = nov,
-  journal = {ACM Transactions on Cyber-Physical Systems},
-  volume = {4},
-  number = {2},
-  pages = {18:1--18:32},
-  issn = {2378-962X},
-  doi = {10.1145/3361846},
-  url = {https://doi.org/10.1145/3361846},
-  urldate = {2020-01-23},
-  abstract = {Closing feedback loops fast and over long distances is key to emerging cyber-physical applications; for example, robot motion control and swarm coordination require update intervals of tens of milliseconds. Low-power wireless communication technology is preferred for its low cost, small form factor, and flexibility, especially if the devices support multi-hop communication. Thus far, however, feedback control over multi-hop low-power wireless networks has only been demonstrated for update intervals on the order of seconds. To fill this gap, this article presents a wireless embedded system that supports dynamic mode changes and tames imperfections impairing control performance (e.g., jitter and message loss), and a control design that exploits the essential properties of this system to provably guarantee closed-loop stability for physical processes with linear time-invariant dynamics in the presence of mode changes. Using experiments on a cyber-physical testbed with 20 wireless devices and multiple cart-pole systems, we are the first to demonstrate and evaluate feedback control and coordination with mode changes over multi-hop networks for update intervals of 20 to 50 milliseconds.},
-  file = {/home/user/Zotero/storage/I4ZML9VS/Baumann et al. - 2019 - Fast Feedback Control over Multi-hop Wireless Netw.pdf}
-}
-
-@inproceedings{boano2018IoTBench,
-  title = {{{IoTBench}}: {{Towards}} a {{Benchmark}} for {{Low-power Wireless Networking}}},
-  shorttitle = {{{IoTBench}}},
-  booktitle = {Proceedings of the 1st {{Workshop}} on {{Benchmarking Cyber-Physical Networks}} and {{Systems}} ({{CPSBench}} 2018)},
-  author = {Boano, Carlo A. and Duquennoy, Simon and F{\"o}rster, Anna and Gnawali, Omprakash and Jacob, Romain and Kim, Hyung-Sin and Landsiedel, Olaf and Marfievici, Ramona and Mottola, Luca and Picco, Gian Pietro and Vilajosana, Xavier and Watteyne, Thomas and Zimmerling, Marco},
-  year = {2018},
+@inproceedings{buhler2023Enhancing,
+  title = {Enhancing {{Global Network Monitoring}} with {{Magnifier}}},
+  shorttitle = {Magnifier},
+  booktitle = {{{NSDI}}},
+  author = {B{\"u}hler, Tobias and Jacob, Romain and Poese, Ingmar and Vanbever, Laurent},
+  year = {2023},
   month = apr,
-  doi = {10.3929/ethz-b-000256517},
-  url = {https://www.research-collection.ethz.ch/handle/20.500.11850/256517},
-  urldate = {2018-04-09},
-  abstract = {Unlike other fields of computing and communications, low-power wireless networking is plagued by one major issue: the absence of a well-defined, agreed-upon yardstick to compare the performance of systems, namely, a benchmark. We argue that this situation may eventually represent a hampering factor for a technology expected to be key in the Internet of Things (IoT) and Cyber-physical Systems (CPS). This paper describes a recent initiative to remedy this situation, seeking to enlarge the participation from the community.},
-  copyright = {http://rightsstatements.org/page/InC-NC/1.0/},
-  langid = {english},
-  file = {/home/user/Zotero/storage/MECLR7TQ/Boano et al. - 2018 - IoTBench Towards a Benchmark for Low-power Wirele.pdf;/home/user/Zotero/storage/ZL5XQ6S8/256517.html}
+  url = {https://nsg.ee.ethz.ch/fileadmin/user_upload/publications/magnifier_nsdi_2023.pdf},
+  urldate = {2023-03-07},
+  file = {/home/user/Zotero/storage/7U73SVPQ/buhler.html}
 }
 
-@misc{buhler2023Oscilloscope,
+@inproceedings{buhler2023Oscilloscope,
   title = {Oscilloscope: {{Detecting BGP Hijacks}} in the {{Data Plane}}},
   shorttitle = {Oscilloscope},
+  booktitle = {{{arXiv}}},
   author = {B{\"u}hler, Tobias and Milolidakis, Alexandros and Jacob, Romain and Chiesa, Marco and Vissicchio, Stefano and Vanbever, Laurent},
   year = {2023},
   month = jan,
-  number = {arXiv:2301.12843},
-  eprint = {2301.12843},
-  eprinttype = {arxiv},
-  primaryclass = {cs},
   publisher = {{arXiv}},
   doi = {10.48550/arXiv.2301.12843},
   url = {http://arxiv.org/abs/2301.12843},
   urldate = {2023-01-31},
   abstract = {The lack of security of the Internet routing protocol (BGP) has allowed attackers to divert Internet traffic and consequently perpetrate service disruptions, monetary frauds, and even citizen surveillance for decades. State-of-the-art defenses rely on geo-distributed BGP monitors to detect rogue BGP announcements. As we show, though, attackers can easily evade detection by engineering their announcements. This paper presents Oscilloscope, an approach to accurately detect BGP hijacks by relying on real-time traffic analysis. As hijacks inevitably change the characteristics of the diverted traffic, the key idea is to track these changes in real time and flag them. The main challenge is that "normal" Internet events (e.g., network reconfigurations, link failures, load balancing) also change the underlying traffic characteristics - and they are way more frequent than hijacks. Naive traffic analyses would hence lead to too many false positives. We observe that hijacks typically target a subset of the prefixes announced by Internet service providers and only divert a subset of their traffic. In contrast, normal events lead to more uniform changes across prefixes and traffic. Oscilloscope uses this observation to filter out non-hijack events by checking whether they affect multiple related prefixes or not. Our experimental evaluation demonstrates that Oscilloscope quickly and accurately detects hijacks in realistic traffic traces containing hundreds of events.},
-  archiveprefix = {arXiv},
+  annotation = {Booktitle: arXiv},
   file = {/home/user/Zotero/storage/QMGC8BAG/Bühler et al. - 2023 - Oscilloscope Detecting BGP Hijacks in the Data Pl.pdf;/home/user/Zotero/storage/752CBF39/2301.html}
 }
 
@@ -56,47 +32,10 @@
   author = {Dietm{\"u}ller, Alexander and Ray, Siddhant and Jacob, Romain and Vanbever, Laurent},
   year = {2022},
   month = jul,
-  publisher = {{arXiv}},
+  publisher = {{ACM}},
   doi = {10.1145/3563766.3564104},
   abstract = {Generalizing machine learning (ML) models for network traffic dynamics tends to be considered a lost cause. Hence, for every new task, we often resolve to design new models and train them on model-specific datasets collected, whenever possible, in an environment mimicking the model's deployment. This approach essentially gives up on generalization. Yet, an ML architecture called\_Transformer\_ has enabled previously unimaginable generalization in other domains. Nowadays, one can download a model pre-trained on massive datasets and only fine-tune it for a specific task and context with comparatively little time and data. These fine-tuned models are now state-of-the-art for many benchmarks. We believe this progress could translate to networking and propose a Network Traffic Transformer (NTT), a transformer adapted to learn network dynamics from packet traces. Our initial results are promising: NTT seems able to generalize to new prediction tasks and contexts. This study suggests there is still hope for generalization, though it calls for a lot of future research.},
   file = {/home/user/Zotero/storage/4VBF8JBP/Dietmüller et al. - 2022 - A new hope for network model generalization.pdf;/home/user/Zotero/storage/SSPQIIJ8/2207.html}
-}
-
-@inproceedings{jacob2014directPath,
-  title = {{{directPath}}: {{An Expert Path Planning Framework}} to {{Handle Environment Knowledge}}},
-  booktitle = {Cyber {{Technology}} in {{Automation}}, {{Control}}, and {{Intelligent Systems}} ({{CYBER}}), 2014 {{IEEE}} 4th {{Annual International Conference}} On},
-  author = {Jacob, Romain and Hedrick, J Karl},
-  year = {2014},
-  pages = {7--12},
-  publisher = {{IEEE}},
-  doi = {10.1109/CYBER.2014.6917427},
-  url = {https://doi.org/10.1109/CYBER.2014.6917427},
-  copyright = {All rights reserved}
-}
-
-@inproceedings{jacob2016DRP,
-  title = {End-to-{{End Real-Time Guarantees}} in {{Wireless Cyber-Physical Systems}}},
-  booktitle = {2016 {{IEEE Real-Time Systems Symposium}} ({{RTSS}})},
-  author = {Jacob, Romain and Zimmerling, Marco and Huang, Pengcheng and Beutel, Jan and Thiele, Lothar},
-  year = {2016},
-  month = nov,
-  pages = {167--178},
-  doi = {10.1109/RTSS.2016.025},
-  url = {https://www.research-collection.ethz.ch/handle/20.500.11850/221542},
-  abstract = {In cyber-physical systems (CPS), the communication among the sensing, actuating, and computing elements is often subject to hard real-time constraints. Real-time communication among wireless network interfaces and real-time scheduling for complex, dynamic applications have been intensively studied. Despite these major efforts, there is still a significant gap to fill. In particular, the integration of several real-time components to provide end-to-end real-time guarantees between interfaces of distributed applications in wireless CPS is an unsolved problem. We thus present a distributed protocol that considers the complete transmission chain including peripheral busses, memory accesses, networking interfaces, and the wireless real-time protocol. Our protocol provably guarantees that message buffers along this chain do not overflow and that all messages received at the destination application interface meet their end-to-end deadlines. To achieve this while being adaptive to unpredictable changes in the system and the real-time traffic requirements, our protocol establishes at run-time a set of contracts among all major elements of the transmission chain based on a worst-case delay and buffer analysis of the overall system. Using simulations, we validate that our analytic bounds are both safe and tight.},
-  copyright = {All rights reserved},
-  file = {/home/user/Zotero/storage/CPKAA9VQ/Jacob et al. - 2016 - End-to-End Real-Time Guarantees in Wireless Cyber-.pdf;/home/user/Zotero/storage/UMFE2JLY/7809853.html}
-}
-
-@article{jacob2016Observable,
-  title = {Observable {{Feedback Control}} of Discrete Processes under Time Constraint: {{Application}} to {{Cluster Tools}}},
-  author = {Jacob, Romain and Amari, Sa{\"i}d},
-  year = {2016},
-  month = aug,
-  journal = {International Journal of Computer Integrated Manufacturing},
-  doi = {10.1080/0951192X.2016.1224391},
-  url = {https://hal.archives-ouvertes.fr/hal-01274963},
-  copyright = {All rights reserved}
 }
 
 @article{jacob2016Overview,
@@ -114,44 +53,9 @@
   keywords = {Discrete event systems,Opacity}
 }
 
-@inproceedings{jacob2019Baloo,
-  title = {Synchronous {{Transmissions Made Easy}}: {{Design Your Network Stack}} with {{Baloo}}},
-  booktitle = {Proceedings of the 2019 {{International Conference}} on {{Embedded Wireless Systems}} and {{Networks}}},
-  author = {Jacob, Romain and B{\"a}chli, Jonas and Da Forno, Reto and Thiele, Lothar},
-  year = {2019},
-  doi = {10.3929/ethz-b-000324254},
-  url = {https://doi.org/10.3929/ethz-b-000324254},
-  file = {/home/user/Zotero/storage/8ZDHBN2F/Jacob et al. - 2019 - Synchronous Transmissions Made Easy Design Your N.pdf}
-}
-
-@inproceedings{jacob2019datasetLQE,
-  title = {Dataset: {{Wireless Link Quality Estimation}} on {{FlockLab}} \textendash{} and {{Beyond}}},
-  booktitle = {Proceedings of the 2nd International Workshop on Data Acquisition to Analysis ({{DATA}})},
-  author = {Jacob, Romain and Forno, Reto Da and Tr{\"u}b, Roman and Biri, Andreas and Thiele, Lothar},
-  year = {2019},
-  month = nov,
-  publisher = {{ACM}},
-  address = {{New York, NY, USA}},
-  doi = {10.3929/ethz-b-000355846},
-  url = {https://doi.org/10.3929/ethz-b-000355846}
-}
-
-@inproceedings{jacob2020Synchronous,
-  title = {Synchronous Transmissions on {{Bluetooth}} 5 and {{IEEE}} 802.15.4 \textendash{} {{A}} Replication Study},
-  booktitle = {3rd {{Workshop}} on {{Benchmarking Cyber-Physical Systems}} and {{Internet}} of {{Things}} ({{CPS-IoTBench}}'20)},
-  author = {Jacob, Romain and Schaper, Anna-Brit and Biri, Andreas and Da Forno, Reto and Thiele, Lothar},
-  year = {2020},
-  month = sep,
-  url = {https://openreview.net/forum?id=BSZPNEUHiS2},
-  urldate = {2020-10-05},
-  abstract = {This paper presents an experimental campaign comparing the performance of synchronous transmissions on Bluetooth and IEEE 802.15.4 using the nRF52840 platform.},
-  langid = {english},
-  file = {/home/user/Zotero/storage/SLH838AM/Jacob et al. - 2020 - Synchronous transmissions on Bluetooth 5 and IEEE .pdf;/home/user/Zotero/storage/TJNMBMHE/forum.html}
-}
-
 @inproceedings{jacob2020TTW,
   title = {The {{Time-Triggered Wireless Architecture}}},
-  booktitle = {32nd {{Euromicro Conference}} on {{Real-Time Systems}} ({{ECRTS}} 2020)},
+  booktitle = {{{ECRTS}}},
   author = {Jacob, Romain and Zhang, Licong and Zimmerling, Marco and Beutel, Jan and Chakraborty, Samarjit and Thiele, Lothar},
   editor = {V{\"o}lp, Marcus},
   year = {2020},
@@ -188,8 +92,9 @@
   keywords = {JSys,notion}
 }
 
-@article{jacob2022Internet,
+@inproceedings{jacob2022Internet,
   title = {The {{Internet}} of Tomorrow Must Sleep More and Grow Old},
+  booktitle = {{{HotCarbon}}},
   author = {Jacob, Romain and Vanbever, Laurent},
   year = {2022},
   month = jul,
@@ -202,7 +107,7 @@
 @inproceedings{mager2019Feedback,
   title = {Feedback {{Control Goes Wireless}}: {{Guaranteed Stability}} over {{Low-power Multi-hop Networks}}},
   shorttitle = {Feedback {{Control Goes Wireless}}},
-  booktitle = {Proceedings of the 10th {{ACM}}/{{IEEE International Conference}} on {{Cyber-Physical Systems}}},
+  booktitle = {{{ICCPS}}},
   author = {Mager, Fabian and Baumann, Dominik and Jacob, Romain and Thiele, Lothar and Trimpe, Sebastian and Zimmerling, Marco},
   year = {2019},
   series = {{{ICCPS}} '19},

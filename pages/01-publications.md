@@ -5,7 +5,10 @@ permalink: /publications
 
 # Selected publications
 
-{% bibliography %}
+> If you _really_ want full lists, you can check my [ORCID](https://orcid.org/0000-0002-2218-5750) or [Google Scholar](https://scholar.google.com/citations?user=O74-HUUAAAAJ&hl=en) profiles.
+
+{% bibliography --file Selected %}
+
 
 <!-- FUNCTION {format.names}
 { 's :=

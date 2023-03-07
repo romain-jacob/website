@@ -320,7 +320,7 @@ scholar:
   # group_order: ascending
 
   source: ./_data
-  bibliography: Papers.bib
+  bibliography: Selected.bib
   bibliography_template: bib
   # repository: _papers # to link pdf hosted with the website
 
