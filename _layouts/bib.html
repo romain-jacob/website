@@ -38,25 +38,35 @@
 {% if entry.url %} 
 <a href="{{entry.url}}">
   <img src="https://img.shields.io/badge/-PDF-blueviolet?logo=adobeacrobatreader&labelColor=grey"></a>
-{% endif %}
 
 &nbsp;
+{% endif %}
+
 
 <!-- Article DOI (mandatory) -->
 {% if entry.doi %} 
 <a href="http://dx.doi.org/{{entry.doi}}">
   <img src="https://img.shields.io/badge/DOI-{{ entry.doi | replace: "-", "--"}}-blue?labelColor=grey"></a>
-{% endif %}
 
 &nbsp;
+{% endif %}
+
+<!-- Video -->
+{% if entry.video %} 
+<a href="{{entry.video}}">
+  <img src="https://img.shields.io/badge/-Video-red?logo=youtube&labelColor=grey"></a>
+
+&nbsp;
+{% endif %}
+
 
 <!-- Article reviews (mandatory) -->
 {% if entry.review_url %}
 <a href="{{entry.review_url}}">
-  <img src="https://img.shields.io/badge/-Reviews-red?logo=openaccess&labelColor=grey"></a>
-{% endif %}
+  <img src="https://img.shields.io/badge/-Reviews-orange?logo=openaccess&labelColor=grey"></a>
 
-&nbsp;
+  &nbsp;
+{% endif %}
 
 <!-- Artifacts -->
 {% if entry.artifacts_url %}
