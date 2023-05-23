@@ -14,17 +14,25 @@ list:
 
   - name: "Tobias Bühler"
     type: D
-    year: #Ongoing
-    thesis-title: 
+    year: 2023
+    thesis-title: Improving Internet Path Property Inference
     thesis-url:
 
   # ==============
   # Undergraduates
   # ==============
 
+  - name: "Steven Peter"
+    type: S
+    year: 2023
+    thesis-title: "Building and Monitoring a Solar-Powered Web Server"
+    thesis-url: https://doi.org/10.3929/ethz-b-000613264
+    lead-to-pub: 
+  
+
   - name: "Andri Furrer"
     type: B
-    year: 2023
+    year: 
     thesis-title: "Greening the Internet by putting networks to sleep"
     thesis-url: https://doi.org/10.3929/ethz-b-000601681
     lead-to-pub: 
