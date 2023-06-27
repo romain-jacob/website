@@ -22,9 +22,17 @@ list:
   # Undergraduates
   # ==============
 
-  - name: "Steven Peter"
+  - name: "Jackie Lim"
     type: S
     year: 2023
+    thesis-title: "How much does it burn? Profiling the energy model of a Tofino switch"
+    thesis-url: https://doi.org/10.3929/ethz-b-000618002
+    lead-to-pub: True
+  
+
+  - name: "Steven Peter"
+    type: S
+    year: 
     thesis-title: "Building and Monitoring a Solar-Powered Web Server"
     thesis-url: https://doi.org/10.3929/ethz-b-000613264
     lead-to-pub: 
