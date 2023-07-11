@@ -14,4 +14,3 @@ I have been really happy to present our first technical paper at the [2023 HotCa
 |---|---|
 |<i class="fas fa-file"></i>| [Paper](https://doi.org/10.3929/ethz-b-000620742)|
 |<i class="fas fa-desktop"></i>| [Presentation slides](https://doi.org/10.3929/ethz-b-000620744)|
-<!-- |<i class="fab fa-youtube"></i>| [Tutorial recording (1h40)](https://youtu.be/KVA0MZszI-4)| -->
