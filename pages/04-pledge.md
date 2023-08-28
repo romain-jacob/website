@@ -18,7 +18,7 @@ Therefore, and inspired by [Erin McKiernan](https://emckiernan.wordpress.com/ple
 - I will share code and other artifacts, when possible.
 - I will share raw and curated data.
 - I will promote the [DORA principles](https://sfdora.org/), and in particular...
-- I will use [CRediT](https://www.casrai.org/credit.html) and publish a contributor's record with all my research outputs.
+- I will use [CRediT](https://credit.niso.org/) and publish a contributor's record with all my research outputs.
 - I will encourage professional societies to support open access.
 - I will communicate about my research to the grand public.
 - I will speak out about my choices.
