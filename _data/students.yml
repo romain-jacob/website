@@ -22,9 +22,16 @@ list:
   # Undergraduates
   # ==============
 
+  - name: "Lukas Röllin"
+    type: M
+    year: #2023
+    thesis-title: "How fast can it wake up? Putting Link Sleeping into Practice"
+    thesis-url: https://doi.org/10.3929/ethz-b-000637984
+    lead-to-pub: True
+  
   - name: "Jackie Lim"
     type: S
-    year: 2023
+    year: 
     thesis-title: "How much does it burn? Profiling the energy model of a Tofino switch"
     thesis-url: https://doi.org/10.3929/ethz-b-000618002
     lead-to-pub: True
