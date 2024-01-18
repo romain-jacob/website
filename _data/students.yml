@@ -2,25 +2,21 @@
 
 list:
 
-  # =================
-  # Doctoral students
-  # =================
-
   - name: "Alexander Dietmüller"
     type: D
     year: Ongoing
     thesis-title: 
     thesis-url: 
 
-  - name: "Tobias Bühler"
-    type: D
-    year: 2023
-    thesis-title: Improving Internet Path Property Inference
-    thesis-url:
 
-  # ==============
-  # Undergraduates
-  # ==============
+
+
+  - name: "Simon Englert, Leonard Wechsler"
+    type: B
+    year: 2023
+    thesis-title: "Data Visualization of Switzerland’s Research and Education Network"
+    thesis-url: https://doi.org/10.3929/ethz-b-000653675
+    lead-to-pub: False
 
   - name: "Lukas Röllin"
     type: M
@@ -29,6 +25,12 @@ list:
     thesis-url: https://doi.org/10.3929/ethz-b-000637984
     lead-to-pub: True
   
+  - name: "Tobias Bühler"
+    type: D
+    year: #2023
+    thesis-title: Improving Internet Path Property Inference
+    thesis-url:
+
   - name: "Jackie Lim"
     type: S
     year: 
