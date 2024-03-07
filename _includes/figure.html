@@ -1,0 +1,28 @@
+
+<!--
+Automatically create a webp filename.
+The jekyll-webp plugin will have created
+this file.
+It’s in your _site folder.
+-->
+
+{% assign webp_filename = include.url | replace: ".jpg", ".webp" | replace: ".jpeg", ".webp" | replace: ".png", ".webp" | replace: ".tiff", ".webp" %}
+
+<figure>
+
+  <picture>
+    <!-- Use the webp file -->
+    <source srcset="/assets/images/{{ webp_filename }}" type="image/webp" />
+
+    <!-- Fallback to the file you added -->
+    <img src='/assets/images/{{ include.url }}' alt="{{ include.alt }}"{% unless include.not-lazy %} loading="lazy"{% endunless %} {% if include.height %} height="{{ include.height }}"{% endif %}{% if include.width %} width="{{ include.width }}"{% endif %}>
+
+  </picture>
+    
+  {% if include.caption %}
+  <figcaption>
+      <p>{{ include.caption }}</p>
+  </figcaption>
+  {% endif %}
+
+</figure>
