@@ -19,10 +19,15 @@ Therefore, and inspired by [Erin McKiernan](https://emckiernan.wordpress.com/ple
 - I will share raw and curated data.
 - I will promote the [DORA principles](https://sfdora.org/), and in particular...
 - I will use [CRediT](https://credit.niso.org/) and publish a contributor's record with all my research outputs.
+- I will promote the adoption of [ORCID](https://orcid.org/).
 - I will encourage professional societies to support open access.
 - I will communicate about my research to the grand public.
+- I will limit my professional long-distance flying to one trip per year.
 - I will speak out about my choices.
 - I will regularly and honestly assess my fulfillment to this pledge.
+
+Last updated: 03.2024
+{: .notice--primary}
 
 This pledge is available and citable with a DOI [via OSF](https://www.doi.org/10.17605/OSF.IO/KEVDX).
 
