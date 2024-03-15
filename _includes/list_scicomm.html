@@ -1,0 +1,14 @@
+<div>
+    {% for post in site.posts %}
+    {% if post.type == "scicomm" %}
+    <div>
+        <h2>{{post.title}}</h2>
+        <div style="display: inline-block; width: 15%; vertical-align: top;">
+            <p>{{ post.date | date: "%b. %Y" }}</p>
+        </div><div style="display: inline-block; width: 85%; vertical-align: top;">
+            {{ post.content }}
+        </div>
+    </div>
+    {% endif %}
+    {% endfor %}
+</div>

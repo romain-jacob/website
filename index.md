@@ -3,9 +3,6 @@ layout: single
 author_profile: true
 ---
 
-> I'm currently migrating my personal webpage (I know, it's been a while...)  
-> This is (still) a work-in-progress. Sorry in advance for missing pieces and glitches!
-
 I am a postdoctoral researcher at ETH Zurich in the group of [Prof. Laurent Vanbever](https://nsg.ee.ethz.ch/people/laurent-vanbever/). My current research interests are focused on computer networks, communication protocols, (real-time) scheduling theory, and statistics applied to experimental design.
 You can find out more about my research interests and past activities in [my resume](https://nbviewer.jupyter.org/github/romain-jacob/doc_public/blob/main/cv_full.pdf) and [publication page](/publications).
 
@@ -22,4 +19,4 @@ I am an [Open Science enthusiast](/pledge-to-open-science) and try to advocate f
 
 ## Highlights
 
-{% include news_list.html n-item=10 %}
+{% include list_news.html n-item=10 %}
