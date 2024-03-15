@@ -73,6 +73,14 @@
 .notice {
   @include notice($light-gray);
 }
+// Overwriting the link colors
+.notice  a {
+  color: $link-color;
+  &:hover {
+    color: $link-color-hover;
+    outline: 0;
+  }
+}
 
 /* Primary notice */
 

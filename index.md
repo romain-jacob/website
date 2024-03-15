@@ -22,28 +22,4 @@ I am an [Open Science enthusiast](/pledge-to-open-science) and try to advocate f
 
 ## Highlights
 
-<table>
-{% for post in site.posts limit:50 %}
-{% if post.type == "news" %}
-  <tr>
-      <td width="12%">
-          <span class="post-meta">{{ post.date | date: "%Y %b" }}</span>
-      </td>
-      <td> 
-        {{ post.title }}
-      </td>
-      <td rowspan="2" width="15%" class="image_column bottom_row">
-        {% if post.image %}
-        <a href="{{post.image_link}}"><img src="{{post.image}}" alt="{{post.image_title}}"></a>
-        {% endif %}
-      </td>
-  </tr>
-  <tr>
-      <td></td>
-      <td width="58%" class="bottom_row">
-          {{ post.content }}
-      </td>
-  </tr>
-{% endif %}
-{% endfor %}
-</table>
+{% include news_list.html n-item=10 %}

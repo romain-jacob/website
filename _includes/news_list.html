@@ -1,0 +1,25 @@
+<div>
+    {% for post in site.posts limit:include.n-item %}
+    {% if post.type == "news" %}
+    <div class="notice">
+        <div style="display: inline-block; width: 15%; vertical-align: top;">
+            {{ post.date | date: "%b. %Y" }}
+        </div><div style="display: inline-block; width: 68%; vertical-align: top;">
+            <strong>{{ post.title }}</strong>
+            <br>
+            {{ post.content }}
+        </div><div style="display: inline-block; width: 2%; vertical-align: top;">
+        </div><div style="display: inline-block; width: 15%; vertical-align: top;">
+            {% if post.image %}
+            <a href="{{post.image_link}}">
+                {% assign image = {{post.image}}%}
+                {% assign image_alt = {{post.image_title}}%}
+                {% include figure.html url=image alt=image_alt %}
+            </a>
+            {% endif %}
+
+        </div>
+    </div>
+    {% endif %}
+    {% endfor %}
+</div>

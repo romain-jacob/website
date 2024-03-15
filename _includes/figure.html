@@ -6,17 +6,23 @@ this file.
 It’s in your _site folder.
 -->
 
-{% assign webp_filename = include.url | replace: ".jpg", ".webp" | replace: ".jpeg", ".webp" | replace: ".png", ".webp" | replace: ".tiff", ".webp" %}
-
 <figure>
-
   <picture>
-    <!-- Use the webp file -->
-    <source srcset="/assets/images/{{ webp_filename }}" type="image/webp" />
 
-    <!-- Fallback to the file you added -->
-    <img src='/assets/images/{{ include.url }}' alt="{{ include.alt }}"{% unless include.not-lazy %} loading="lazy"{% endunless %} {% if include.height %} height="{{ include.height }}"{% endif %}{% if include.width %} width="{{ include.width }}"{% endif %}>
+    <!-- External image -->
+    {% if include.url contains "https://" or include.url contains "http://" %}
+    <img src='{{ include.url }}' alt="{{ include.alt }}"{% unless include.not-lazy %} loading="lazy"{% endunless %} {% if include.height %} height="{{ include.height }}"{% endif %}{% if include.width %} width="{{ include.width }}"{% endif %}>
 
+    <!-- Local image -->
+    {% else %}
+      {% assign filename = include.url | replace: ".jpg", ".webp" | replace: ".jpeg", ".webp" | replace: ".png", ".webp" | replace: ".tiff", ".webp" %}
+      <!-- Use the webp file -->
+      <source srcset="/assets/images/{{ filename }}" type="image/webp" />
+      
+      <!-- Fallback to the file you added -->
+      <img src='/assets/images/{{ include.url }}' alt="{{ include.alt }}"{% unless include.not-lazy %} loading="lazy"{% endunless %} {% if include.height %} height="{{ include.height }}"{% endif %}{% if include.width %} width="{{ include.width }}"{% endif %}>
+    {% endif %}
+      
   </picture>
     
   {% if include.caption %}
