@@ -26,8 +26,10 @@ Therefore, and inspired by [Erin McKiernan](https://emckiernan.wordpress.com/ple
 - I will speak out about my choices.
 - I will regularly and honestly assess my fulfillment to this pledge.
 
-Last updated: 03.2024
+Last updated: 03.2024  
+[My Pledge to Open Science - 2024 review](https://blog.romainjacob.net/nsgethz/My-Pledge-to-Open-Science-2024-review-dabd2d70df55466283ed885e475401bd)
 {: .notice--primary}
+
 
 This pledge is available and citable with a DOI [via OSF](https://www.doi.org/10.17605/OSF.IO/KEVDX).
 
