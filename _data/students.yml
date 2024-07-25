@@ -8,9 +8,16 @@ list:
     thesis-title: 
     thesis-url: 
 
+  - name: "Jonathan Chung"
+    type: B
+    year: 2024
+    thesis-title: "Automated power measurement for network devices: Collecting data reliably made simple?"
+    thesis-url: https://doi.org/10.3929/ethz-b-000685212
+    lead-to-pub: False 
+
   - name: "Jackie Lim"
     type: M
-    year: 2024
+    year: # 2024
     thesis-title: "Power Modelling Framework for Network Switches"
     thesis-url: https://doi.org/10.3929/ethz-b-000663342
     lead-to-pub: False 
