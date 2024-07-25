@@ -19,8 +19,8 @@
 <br/>
 {{entry.author}}
 <br/>
-{{entry.journal}}     <!-- for journals -->
-{{entry.booktitle}},  <!-- for conferences -->
+{% if entry.journal %}{{entry.journal}},{%endif%}     <!-- for journals -->
+{% if entry.booktitle %}{{entry.booktitle}},{%endif%} <!-- for conferences --> 
 {{entry.year}}
 
 <br/>
