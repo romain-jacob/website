@@ -2,9 +2,16 @@
 
 list:
 
+  - name: "Maurice Béhanzin"
+    type: B
+    year: 2024
+    thesis-title: "Reducing power conversion losses in modern PSUs"
+    thesis-url: https://doi.org/10.3929/ethz-b-000715084
+    lead-to-pub: False 
+
   - name: "Andreas Hunziker"
     type: S
-    year: 2024
+    year: 
     thesis-title: "Collecting Storing and Serving of Network Power Data"
     thesis-url: https://doi.org/10.3929/ethz-b-000693502
     lead-to-pub: False 
