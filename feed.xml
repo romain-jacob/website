@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Romain Jacob</title>
+		<description>Personal webpage of Romain Jacob</description>
+		<link>https://romainjacob.net</link>
+		<atom:link href="https://romainjacob.net/feed.xml" rel="self" type="application/rss+xml" />
+		
+			<item>
+				<title>Best Paper Award at HotCarbon'24</title>
+				<description>&lt;p&gt;For the third year in a row, we presented our ongoing sustainable networking work at &lt;a href=&quot;https://hotcarbon.org/&quot;&gt;HotCarbon&lt;/a&gt;.&lt;br /&gt;
+Cherry on the cake: We had the pleasure of receiving the Best Paper Award! Check it out!&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;i class=&quot;fas fa-file&quot;&gt;&lt;/i&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://doi.org/10.3929/ethz-b-000680859&quot;&gt;Paper&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;i class=&quot;fas fa-desktop&quot;&gt;&lt;/i&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://nsg.ee.ethz.ch/files/public/slides/2024-07-09-a-sleep-study-for-isp-networks-evaluating-link-sleeping-on-real-world-data_1.pdf&quot;&gt;Slides&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;i class=&quot;fas fa-microphone&quot;&gt;&lt;/i&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://podcast.greensoftware.foundation/e/08j02v38-a-greener-internet-that-sleeps-more&quot;&gt;Podcast&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+				<pubDate>Thu, 25 Jul 2024 00:00:00 +0000</pubDate>
+				<link>https://romainjacob.net/news/2024/07/25/HotCarbon_Hypnos.html</link>
+				<guid isPermaLink="true">https://romainjacob.net/news/2024/07/25/HotCarbon_Hypnos.html</guid>
+			</item>
+		
+			<item>
+				<title>Pledge to Open Science - 2024 review</title>
+				<description>&lt;p&gt;After 4.5 years, I finally took the time to assess my commitment to my &lt;a href=&quot;/pledge-to-open-science&quot;&gt;pledge to open science&lt;/a&gt;. A nice opportunity to reflect on my past choices–and do some adjustments.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;i class=&quot;fas fa-file&quot;&gt;&lt;/i&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://nsgethz.notion.site/My-Pledge-to-Open-Science-2024-review-dabd2d70df55466283ed885e475401bd&quot;&gt;Blog post&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+				<pubDate>Fri, 23 Feb 2024 00:00:00 +0000</pubDate>
+				<link>https://romainjacob.net/news/2024/02/23/PlegeUpdate.html</link>
+				<guid isPermaLink="true">https://romainjacob.net/news/2024/02/23/PlegeUpdate.html</guid>
+			</item>
+		
+			<item>
+				<title>Pledge to Open Science - 2024 review</title>
+				<description>&lt;p&gt;In 2019, as I was approaching the end of my doctorate, I decided to &lt;a href=&quot;https://www.romainjacob.net/pledge-to-open-science&quot;&gt;commit to open science practices&lt;/a&gt;. Why? Can’t say it any better than Erin McKiernan, who inspired me to do this.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;If I am going to “make it” in science, it has to be on terms I can live with.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;More than four years have passed. It is time to look back and assess how truthful I have been to my own commitment. And maybe make a couple of adjustments.&lt;/p&gt;
+
+&lt;p&gt;Spoiler alert: I’m writing this primarily for myself. So, unless you are somehow particularly interested in what’s happening in my life, you should close this tab and move on with your day.&lt;/p&gt;
+
+&lt;p&gt;Still reading? Let’s go then!&lt;/p&gt;
+
+&lt;h2 id=&quot;step-1-assessment&quot;&gt;Step 1: Assessment&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;I will not edit, review, or work for closed or hybrid access journals or conferences.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This is an easy one: The pledge gave me an ethically a</description>
+				<pubDate>Fri, 23 Feb 2024 00:00:00 +0000</pubDate>
+				<link>https://romainjacob.net/2024/02/23/PlegeUpdate.html</link>
+				<guid isPermaLink="true">https://romainjacob.net/2024/02/23/PlegeUpdate.html</guid>
+			</item>
+		
+			<item>
+				<title>Lecture material on Sustainable Networking</title>
+				<description>&lt;p&gt;To wrap up 2023, I had the pleasure of giving a 2-hour lecture on Sustainable Networking for Master’s students.&lt;br /&gt;
+As always, I learned a lot while preparing to teach this class. It also made me aware of how much I’ve learned about sustainability in the past 18 months; back then, I knew pretty much nothing about what I just taught. 😅&lt;/p&gt;
+
+&lt;p&gt;The slides’ PDF and sources are openly available. You’re welcome to take/adapt/reuse. I’d be happy to know if you do so! 🙃&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;i class=&quot;fas fa-desktop&quot;&gt;&lt;/i&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://zenodo.org/doi/10.5281/zenodo.10527364&quot;&gt;Presentation slides&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+				<pubDate>Mon, 22 Jan 2024 00:00:00 +0000</pubDate>
+				<link>https://romainjacob.net/news/2024/01/22/AdvNet.html</link>
+				<guid isPermaLink="true">https://romainjacob.net/news/2024/01/22/AdvNet.html</guid>
+			</item>
+		
+			<item>
+				<title>Presentation at HotCarbon</title>
+				<description>&lt;p&gt;I have been really happy to present our first technical paper at the &lt;a href=&quot;https://hotcarbon.org/2023/index.html&quot;&gt;2023 HotCarbon workshop&lt;/a&gt;. That marks the first milestone of my journey researching “sustainable networking.” Check it out!&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;i class=&quot;fas fa-file&quot;&gt;&lt;/i&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://doi.org/10.3929/ethz-b-000620742&quot;&gt;Paper&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;i class=&quot;fas fa-desktop&quot;&gt;&lt;/i&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://doi.org/10.3929/ethz-b-000620744&quot;&gt;Presentation slides&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;i class=&quot;fab fa-youtube&quot;&gt;&lt;/i&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://mediaspace.ucsd.edu/media/HotCarbon%E2%80%9923%3A%20Does%20rate%20adaptation%20at%20daily%20timescales%20make%20sense%20(Zhao%20et%20al.)/1_3fgjqkap/307441832&quot;&gt;Recording&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;i class=&quot;fas fa-microphone&quot;&gt;&lt;/i&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://open.spotify.com/episode/39mTVhE6CeK58W81aBaNhr&quot;&gt;Podcast coverage (@9:27)&lt;/a&gt;&lt;/td&gt;</description>
+				<pubDate>Mon, 10 Jul 2023 00:00:00 +0000</pubDate>
+				<link>https://romainjacob.net/news/2023/07/10/HotCarbon.html</link>
+				<guid isPermaLink="true">https://romainjacob.net/news/2023/07/10/HotCarbon.html</guid>
+			</item>
+		
+			<item>
+				<title>Joining the ORCID Researcher Advisory Council</title>
+				<description>&lt;p&gt;I have been selected to serve in the very first Researcher Advisory Council of &lt;a href=&quot;https://orcid.org/&quot;&gt;ORCID&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I hope to assist ORCID in its mission to “help (researchers) spend more time conducting their research and less time managing it.” How cool is that? &lt;i class=&quot;fas fa-smile-beam&quot;&gt;&lt;/i&gt;&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;i class=&quot;fas fa-globe&quot;&gt;&lt;/i&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://info.orcid.org/orcid-researcher-advisory-council-orac/&quot;&gt;ORCID news&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://twitter.com/RJacobPartner/status/1488763357138149376&quot;&gt;Tweet&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+				<pubDate>Wed, 02 Feb 2022 00:00:00 +0000</pubDate>
+				<link>https://romainjacob.net/news/2022/02/02/ORAC.html</link>
+				<guid isPermaLink="true">https://romainjacob.net/news/2022/02/02/ORAC.html</guid>
+			</item>
+		
+			<item>
+				<title>Curating your professional network</title>
+				<description>&lt;figure class=&quot;blog-image&quot;&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/2022-01_networking.png&quot; alt=&quot;My 2022 email picture: Me and my daughter focused on our task.&quot; /&gt;&lt;/p&gt;
+  &lt;figcaption&gt;My 2022 email picture: Me and my daughter focused on our task.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;As a young researcher, you are often told that “it’s important to network,” that you should know a lot of people, and that they should know you. I agree, it’s important. But this post is not about building up your network.&lt;/p&gt;
+
+&lt;p&gt;It’s about getting people to &lt;em&gt;remember&lt;/em&gt; you.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;TL;DR&lt;/strong&gt;&lt;br /&gt;
+Shortly after the New Year, I send a short email with some professional and personal updates (about half-half), with a picture of a fond memory from the year.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;everyone-has-a-network&quot;&gt;Everyone has a network&lt;/h2&gt;
+
+&lt;p&gt;We all know people. We have supervisors, collaborators, colleagues; people we work with. That’s your professional network.
+But people move on, they graduate, they </description>
+				<pubDate>Wed, 12 Jan 2022 00:00:00 +0000</pubDate>
+				<link>https://romainjacob.net/blog/2020-01-networking</link>
+				<guid isPermaLink="true">https://romainjacob.net/blog/2020-01-networking</guid>
+			</item>
+		
+			<item>
+				<title>Starting as Editor-in-Chief for JSys</title>
+				<description>&lt;p&gt;It is my pleasure to serve as one of the JSys Editors-in-Chief.&lt;/p&gt;
+
+&lt;p&gt;Looking forward to helping bring your research to the world, with high quality review, artifact evaluation, and of course, no fees nor paywall!&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;i class=&quot;fas fa-globe&quot;&gt;&lt;/i&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;http://jsys.org/&quot;&gt;JSys website&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+				<pubDate>Wed, 01 Sep 2021 00:00:00 +0000</pubDate>
+				<link>https://romainjacob.net/news/2021/09/01/jsysEiC.html</link>
+				<guid isPermaLink="true">https://romainjacob.net/news/2021/09/01/jsysEiC.html</guid>
+			</item>
+		
+			<item>
+				<title>TriScale Tutorial at SIGCOMM</title>
+				<description>&lt;p&gt;Last week, I held a half-day tutorial about &lt;a href=&quot;https://conferences.sigcomm.org/sigcomm/2021/triscale-tutorial.html&quot;&gt;TriScale at ACM SIGCOMM&lt;/a&gt;. That was the opportunity for&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;a &lt;a href=&quot;http://triscale.ethz.ch/&quot;&gt;new webpage&lt;/a&gt;,&lt;/li&gt;
+  &lt;li&gt;polished &lt;a href=&quot;https://github.com/romain-jacob/triscale/blob/master/tutorial/README.md&quot;&gt;hands-on material&lt;/a&gt;,&lt;/li&gt;
+  &lt;li&gt;an &lt;a href=&quot;https://osf.io/9cvnd/&quot;&gt;extended slide pack&lt;/a&gt;, and&lt;/li&gt;
+  &lt;li&gt;a better &lt;a href=&quot;https://youtu.be/KVA0MZszI-4&quot;&gt;video recording&lt;/a&gt;!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Check-it out and spread the word! Let’s foster replicability in networking research!&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;i class=&quot;fab fa-youtube&quot;&gt;&lt;/i&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://youtu.be/KVA0MZszI-4&quot;&gt;Tutorial recording (1h40)&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;i class=&quot;fas fa-desktop&quot;&gt;&lt;/i&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://osf.io/9cvnd/&quot;&gt;Tutorial slides&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;i class=&quot;fas fa-file&quot;&gt;&lt;/i&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;</description>
+				<pubDate>Mon, 23 Aug 2021 00:00:00 +0000</pubDate>
+				<link>https://romainjacob.net/news/2021/08/23/TriScale-SIGCOMM.html</link>
+				<guid isPermaLink="true">https://romainjacob.net/news/2021/08/23/TriScale-SIGCOMM.html</guid>
+			</item>
+		
+			<item>
+				<title>Joining SwissRN</title>
+				<description>&lt;p&gt;Happy to announce that I officially joined the Swiss Reproducibility Network, an academic-driven consortium that aims to promote and ensure rigorous research practices in Switzerland!&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;i class=&quot;fas fa-globe&quot;&gt;&lt;/i&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://www.swissrn.org/&quot;&gt;SwissRN website&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+				<pubDate>Fri, 11 Jun 2021 00:00:00 +0000</pubDate>
+				<link>https://romainjacob.net/news/2021/06/11/SwissRN.html</link>
+				<guid isPermaLink="true">https://romainjacob.net/news/2021/06/11/SwissRN.html</guid>
+			</item>
+		
+	</channel>
+</rss>
