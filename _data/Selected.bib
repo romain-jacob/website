@@ -2,7 +2,7 @@
   title = {Enhancing {{Global Network Monitoring}} with {{Magnifier}}},
   shorttitle = {Magnifier},
   booktitle = {{{NSDI}}},
-  author = {B{\"u}hler, Tobias and Jacob, Romain and Poese, Ingmar and Vanbever, Laurent},
+  author = {B{\"u}hler, Tobias and Jacob, Romain and {Ingmar Poese} and Vanbever, Laurent},
   year = {2023},
   pages = {1521--1539},
   url = {https://www.usenix.org/conference/nsdi23/presentation/buhler},
@@ -14,26 +14,10 @@
   file = {/home/user/Zotero/storage/H4XUCUP9/Bühler et al. - 2023 - Enhancing Global Network Monitoring with Magnifier.pdf}
 }
 
-@inproceedings{buhler2023Oscilloscope,
-  title = {Oscilloscope: {{Detecting BGP Hijacks}} in the {{Data Plane}}},
-  shorttitle = {Oscilloscope},
-  booktitle = {{{arXiv}}},
-  author = {B{\"u}hler, Tobias and Milolidakis, Alexandros and Jacob, Romain and Chiesa, Marco and Vissicchio, Stefano and Vanbever, Laurent},
-  year = {2023},
-  month = jan,
-  publisher = {arXiv},
-  doi = {10.48550/arXiv.2301.12843},
-  url = {http://arxiv.org/abs/2301.12843},
-  urldate = {2023-01-31},
-  abstract = {The lack of security of the Internet routing protocol (BGP) has allowed attackers to divert Internet traffic and consequently perpetrate service disruptions, monetary frauds, and even citizen surveillance for decades. State-of-the-art defenses rely on geo-distributed BGP monitors to detect rogue BGP announcements. As we show, though, attackers can easily evade detection by engineering their announcements. This paper presents Oscilloscope, an approach to accurately detect BGP hijacks by relying on real-time traffic analysis. As hijacks inevitably change the characteristics of the diverted traffic, the key idea is to track these changes in real time and flag them. The main challenge is that "normal" Internet events (e.g., network reconfigurations, link failures, load balancing) also change the underlying traffic characteristics - and they are way more frequent than hijacks. Naive traffic analyses would hence lead to too many false positives. We observe that hijacks typically target a subset of the prefixes announced by Internet service providers and only divert a subset of their traffic. In contrast, normal events lead to more uniform changes across prefixes and traffic. Oscilloscope uses this observation to filter out non-hijack events by checking whether they affect multiple related prefixes or not. Our experimental evaluation demonstrates that Oscilloscope quickly and accurately detects hijacks in realistic traffic traces containing hundreds of events.},
-  annotation = {Booktitle: arXiv},
-  file = {/home/user/Zotero/storage/QMGC8BAG/Bühler et al. - 2023 - Oscilloscope Detecting BGP Hijacks in the Data Pl.pdf;/home/user/Zotero/storage/752CBF39/2301.html}
-}
-
 @inproceedings{dietmuller2022new,
   title = {A New Hope for Network Model Generalization},
   booktitle = {{{HotNets}}},
-  author = {Dietm{\"u}ller, Alexander and Ray, Siddhant and Jacob, Romain and Vanbever, Laurent},
+  author = {Dietm{\"u}ller, Alexander and {Siddhant Ray} and Jacob, Romain and Vanbever, Laurent},
   year = {2022},
   month = jul,
   publisher = {ACM},
@@ -48,7 +32,7 @@
 @article{dietmuller2024Memento,
   title = {On {{Sample Selection}} for {{Continual Learning}}: A {{Video Streaming Case Study}}},
   shorttitle = {On {{Sample Selection}} for {{Continual Learning}}},
-  author = {Dietm{\"u}ller, Alexander and Jacob, Romain and Vanbever, Laurent},
+  author = {{Alexander Dietm{\"u}ller} and Jacob, Romain and Vanbever, Laurent},
   year = {2024},
   month = apr,
   journal = {CCR},
@@ -128,7 +112,7 @@
   year = {2022},
   month = jul,
   pages = {8},
-  url = {https://hotcarbon.org/2022/pdf/hotcarbon22-jacob.pdf},
+  url = {https://hotcarbon.org/assets/2022/pdf/hotcarbon22-jacob.pdf},
   abstract = {Today, the ICT industry has a massive carbon footprint (a few percent of the worldwide emissions) and one of the fastest growth rates. The Internet accounts for a large part of that footprint while being also energy inefficient; i.e., the total energy cost per byte transmitted is very high. Thankfully, there are many ways to improve on the current status; we discuss two relatively unexplored directions in this paper. Putting network devices to ``sleep,'' i.e., turning them off, is known to be an efficient vector to save energy; we argue that harvesting this potential requires new routing protocols, better suited to devices switching on/off often, and revising the corresponding hardware/software co-design. Moreover, we can reduce the embodied carbon footprint by using networking hardware longer, and we argue that this could even be beneficial for reliability! We sketch our first ideas in these directions and outline practical challenges that we (as a community) need to address to make the Internet more sustainable.},
   langid = {english},
   video = {https://youtu.be/EUprOJTvQ84},
@@ -152,6 +136,23 @@
   annotation = {Accepted: 2023-07-11T08:05:24Z},
   file = {/home/user/Zotero/storage/2YZD8SX2/Jacob et al. - 2023 - Does rate adaptation at daily timescales make sens.pdf},
   rights = {http://rightsstatements.org/page/InC-NC/1.0/}
+}
+
+@inproceedings{jacob2025Fantastic,
+  title = {Fantastic {{Joules}} and {{Where}} to {{Find Them}}. {{Modeling}} and {{Optimizing Router Energy Demand}}},
+  booktitle = {25th {{ACM Internet Measurement Conference}} ({{IMC}} 2025)},
+  author = {Jacob, Romain and R{\"o}llin, Lukas and Lim, Jackie and Chung, Jonathan and B{\'e}hanzin, Maurice and Wang, Weiran and Hunziker, Andreas and Moroianu, Theodor and Tabaeiaghdaei, Seyedali and Perrig, Adrian and Vanbever, Laurent},
+  year = {2025},
+  month = oct,
+  doi = {10.1145/3730567.3732920},
+  url = {https://www.research-collection.ethz.ch/handle/20.500.11850/728960},
+  urldate = {2025-07-02},
+  abstract = {Reducing our society's energy demand is critical to address the sustainability challenge. While the Internet currently accounts for 1---1.5\% of global electricity consumption and continues to grow, the energy demands of one of its core components---routers---remain poorly understood. The available power data is limited and not fined-grained enough, offering little actionable insight into strategies for effectively reducing the Internet's energy consumption. To address this, we assemble and present a unique dataset including datasheet information, router-internal measurements, external power measurements, and router power models. This dataset depicts a clearer picture of routers energy demand and provides insights on how to reduce it. The dataset suggests, e.g., that (i) datasheets are not useful predictors, sometimes even incorrect; (ii) internal router power measurements have limited accuracy; (iii) using more efficient and better-sized power supply units is a promising energy-saving vector; (iv) turning links off is less efficient than anticipated in the literature. This work also highlights the limitations of today's power monitoring practices and provides suggestions for improvement.},
+  copyright = {http://creativecommons.org/licenses/by/4.0/},
+  isbn = {9798400718601},
+  langid = {english},
+  file = {/home/user/Zotero/storage/Z742WK7S/Jacob et al. - 2025 - Fantastic Joules and Where to Find Them. Modeling .pdf},
+  rights = {http://creativecommons.org/licenses/by/4.0/}
 }
 
 @inproceedings{mager2019Feedback,
@@ -199,7 +200,7 @@
   author = {R{\"o}llin, Lukas and Jacob, Romain and Vanbever, Laurent},
   year = {2024},
   doi = {10.3929/ethz-b-000680859},
-  url = {https://www.research-collection.ethz.ch/handle/20.500.11850/680859},
+  url = {https://doi.org/10.3929/ethz-b-000680859},
   urldate = {2024-07-25},
   abstract = {Turning off under-utilized network links is a promising energy-saving technique. In this paper, we present Hypnos, a link sleeping system targeted at low-utilization wired networks, and assess its efficiency using real-world data from two European ISPs. In those two case studies, we find that Hypnos can turn off more than a third of all links without congesting the network. This confirms the promise of link sleeping in low-utilization networks.},
   artifacts_url = {https://github.com/nsg-ethz/hypnos},
@@ -209,4 +210,20 @@
   file = {/home/user/Zotero/storage/Z87KL6P8/Röllin et al. - 2024 - A Sleep Study for ISP Networks Evaluating Link Sl.pdf},
   booktitle = {{{HotCarbon}}},
   rights = {http://rightsstatements.org/page/InC-NC/1.0/}
+}
+
+@inproceedings{tobiasbuhler2023Oscilloscope,
+  title = {Oscilloscope: {{Detecting BGP Hijacks}} in the {{Data Plane}}},
+  shorttitle = {Oscilloscope},
+  booktitle = {{{arXiv}}},
+  author = {{Tobias B{\"u}hler} and {Alexandros Milolidakis} and {Romain Jacob} and {Marco Chiesa} and {Stefano Vissicchio} and {Laurent Vanbever}},
+  year = {2023},
+  month = jan,
+  publisher = {arXiv},
+  doi = {10.48550/arXiv.2301.12843},
+  url = {http://arxiv.org/abs/2301.12843},
+  urldate = {2023-01-31},
+  abstract = {The lack of security of the Internet routing protocol (BGP) has allowed attackers to divert Internet traffic and consequently perpetrate service disruptions, monetary frauds, and even citizen surveillance for decades. State-of-the-art defenses rely on geo-distributed BGP monitors to detect rogue BGP announcements. As we show, though, attackers can easily evade detection by engineering their announcements. This paper presents Oscilloscope, an approach to accurately detect BGP hijacks by relying on real-time traffic analysis. As hijacks inevitably change the characteristics of the diverted traffic, the key idea is to track these changes in real time and flag them. The main challenge is that "normal" Internet events (e.g., network reconfigurations, link failures, load balancing) also change the underlying traffic characteristics - and they are way more frequent than hijacks. Naive traffic analyses would hence lead to too many false positives. We observe that hijacks typically target a subset of the prefixes announced by Internet service providers and only divert a subset of their traffic. In contrast, normal events lead to more uniform changes across prefixes and traffic. Oscilloscope uses this observation to filter out non-hijack events by checking whether they affect multiple related prefixes or not. Our experimental evaluation demonstrates that Oscilloscope quickly and accurately detects hijacks in realistic traffic traces containing hundreds of events.},
+  annotation = {Booktitle: arXiv},
+  file = {/home/user/Zotero/storage/QMGC8BAG/Bühler et al. - 2023 - Oscilloscope Detecting BGP Hijacks in the Data Pl.pdf;/home/user/Zotero/storage/752CBF39/2301.html}
 }
