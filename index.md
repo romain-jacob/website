@@ -12,9 +12,13 @@ I am an [Open Science enthusiast](/pledge-to-open-science) and try to advocate f
 
 ## Want to find out more about me?
 
-- Resumé ([short](https://nbviewer.jupyter.org/github/romain-jacob/doc_public/blob/main/cv_narrative.pdf) or [full](https://nbviewer.jupyter.org/github/romain-jacob/doc_public/blob/main/cv_full.pdf))
-<!-- - [Research statement](https://nbviewer.jupyter.org/github/romain-jacob/doc_public/blob/main/research.pdf) -->
-- [Teaching statement](https://nbviewer.jupyter.org/github/romain-jacob/doc_public/blob/main/teaching.pdf)
+- Resumé ([short](https://nbviewer.jupyter.org/github/romain-jacob/website/blob/main/assets/documents/cv_short.pdf) or [full](https://nbviewer.jupyter.org/github/romain-jacob/website/blob/main/assets/documents/cv_full.pdf))
+- [Research statement](https://nbviewer.jupyter.org/github/romain-jacob/website/blob/main/assets/documents/research.pdf)
+- [Teaching statement](https://nbviewer.jupyter.org/github/romain-jacob/website/blob/main/assets/documents/teaching.pdf)
+- 
+<!-- - Resumé ([short](https://nbviewer.jupyter.org/github/romain-jacob/doc_public/blob/main/cv_narrative.pdf) or [full](https://nbviewer.jupyter.org/github/romain-jacob/doc_public/blob/main/cv_full.pdf))
+- [Research statement](https://nbviewer.jupyter.org/github/romain-jacob/doc_public/blob/main/research.pdf)
+- [Teaching statement](https://nbviewer.jupyter.org/github/romain-jacob/doc_public/blob/main/teaching.pdf) -->
 <!-- - [Publications](https://nbviewer.jupyter.org/github/romain-jacob/doc_public/blob/main/publications.pdf) -->
 
 ## Highlights
