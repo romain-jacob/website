@@ -5,7 +5,7 @@ author_profile: true
 
 I am an established researcher at ETH Zurich in the group of [Prof. Laurent Vanbever](https://nsg.ee.ethz.ch/people/laurent-vanbever/). My current research focuses on sustainable networking, specifically in wired computer networks. 
 In the past, I worked on low-power wireless communication protocols, (real-time) scheduling theory, and statistics applied to experimental design.
-You can find out more about my research interests and past activities in [my resume](https://nbviewer.jupyter.org/github/romain-jacob/doc_public/blob/main/cv_full.pdf) and [publication page](/publications).
+You can find out more about my research interests and past activities in [my resume](https://github.com/romain-jacob/website/blob/main/assets/documents/cv_short.pdf) and [publication page](/publications).
 
 In 2019, I completed my doctoral studies under the supervision of Prof. Lothar Thiele, also at ETH. My dissertation is entitled [Leveraging Synchronous Transmissions for the Design of Real-time Wireless Cyber-Physical Systems](https://github.com/romain-jacob/doctoral-thesis). Before joining ETH, I obtained a Master of Science in Engineering of Complex Systems (2015) and Master for Faculty Training for Higher Education (2013) both from École Normale Supérieure de Cachan (now ENS Paris-Saclay). In 2014, I spent a year in UC Berkeley as visiting scholar under the supervision of Prof. Karl Hedrick.
 
@@ -13,13 +13,16 @@ I am an [Open Science enthusiast](/pledge-to-open-science) and try to advocate f
 
 ## Want to find out more about me?
 
-- Resumé ([short](https://nbviewer.jupyter.org/github/romain-jacob/website/blob/main/assets/documents/cv_short.pdf) or [full](https://nbviewer.jupyter.org/github/romain-jacob/website/blob/main/assets/documents/cv_full.pdf))
-- [Research statement](https://nbviewer.jupyter.org/github/romain-jacob/website/blob/main/assets/documents/research.pdf)
-- [Teaching statement](https://nbviewer.jupyter.org/github/romain-jacob/website/blob/main/assets/documents/teaching.pdf)
-- 
-<!-- - Resumé ([short](https://nbviewer.jupyter.org/github/romain-jacob/doc_public/blob/main/cv_narrative.pdf) or [full](https://nbviewer.jupyter.org/github/romain-jacob/doc_public/blob/main/cv_full.pdf))
-- [Research statement](https://nbviewer.jupyter.org/github/romain-jacob/doc_public/blob/main/research.pdf)
-- [Teaching statement](https://nbviewer.jupyter.org/github/romain-jacob/doc_public/blob/main/teaching.pdf) -->
+- Resumé ([short](https://github.com/romain-jacob/website/blob/main/assets/documents/cv_short.pdf) or [full](https://github.com/romain-jacob/website/blob/main/assets/documents/cv_full.pdf))
+- [Research statement](https://github.com/romain-jacob/website/blob/main/assets/documents/research_v2.pdf)
+- [Teaching statement](https://github.com/romain-jacob/website/blob/main/assets/documents/teaching.pdf)
+
+<!-- - Resumé ([short](https://nbviewer.jupyter.org/github/romain-jacob/website/blob/main/assets/documents/cv_short.pdf) or [full](https://nbviewer.jupyter.org/github/romain-jacob/website/blob/main/assets/documents/cv_full.pdf)) -->
+<!-- - [Research statement](https://nbviewer.jupyter.org/github/romain-jacob/website/blob/main/assets/documents/research.pdf) -->
+<!-- - [Teaching statement](https://nbviewer.jupyter.org/github/romain-jacob/website/blob/main/assets/documents/teaching.pdf) -->
+<!-- - Resumé ([short](https://nbviewer.jupyter.org/github/romain-jacob/doc_public/blob/main/cv_narrative.pdf) or [full](https://nbviewer.jupyter.org/github/romain-jacob/doc_public/blob/main/cv_full.pdf)) -->
+<!-- - [Research statement](https://nbviewer.jupyter.org/github/romain-jacob/doc_public/blob/main/research.pdf) -->
+<!-- - [Teaching statement](https://nbviewer.jupyter.org/github/romain-jacob/doc_public/blob/main/teaching.pdf) -->
 <!-- - [Publications](https://nbviewer.jupyter.org/github/romain-jacob/doc_public/blob/main/publications.pdf) -->
 
 ## Highlights

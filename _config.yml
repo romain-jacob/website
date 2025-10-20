@@ -18,7 +18,7 @@ minimal_mistakes_skin    : "contrast" #"default" # "air", "aqua", "contrast", "d
 locale                   : "en-US"
 title                    : "Romain Jacob"
 title_separator          : " | "
-subtitle                 : "Postdoctoral Researcher – Open Science Enthusiast" # site tagline that appears below site title in masthead
+subtitle                 : "Established Researcher – Open Science Enthusiast" # site tagline that appears below site title in masthead
 name                     : "Romain Jacob"
 description              : "Personal webpage of Romain Jacob"
 url                      : "https://romainjacob.net" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
