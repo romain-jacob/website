@@ -3,6 +3,12 @@
 list:
 
 
+  - name: "Carlos Reichenbach de Sousa"
+    type: B
+    year: 2026
+    thesis-title: "The Sustainability Impact of Scaling Strategies in Distributed Computing"
+    thesis-url: 
+    lead-to-pub: False 
 
   - name: "Priska Steinebrunner"
     type: B
