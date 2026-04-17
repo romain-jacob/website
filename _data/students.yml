@@ -2,10 +2,16 @@
 
 list:
 
+  - name: "Elena Desiato"
+    type: B
+    year: 2026
+    thesis-title: "Investigating Power Supply Efficiency and Potential Savings of Standby Mode"
+    thesis-url: https://doi.org/10.3929/ethz-c-000798960
+    lead-to-pub: False 
 
   - name: "Carlos Reichenbach de Sousa"
     type: B
-    year: 2026
+    year: 
     thesis-title: "The Sustainability Impact of Scaling Strategies in Distributed Computing"
     thesis-url: 
     lead-to-pub: False 
