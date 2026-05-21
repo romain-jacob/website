@@ -3,7 +3,7 @@ layout: single
 author_profile: true
 ---
 
-I am an established researcher at ETH Zurich in the group of [Prof. Laurent Vanbever](https://nsg.ee.ethz.ch/people/laurent-vanbever/). My current research focuses on sustainable networking, specifically in wired computer networks. 
+I am Executive Scientific Collaborator (permanent research position) at ETH Zurich in the group of [Prof. Laurent Vanbever](https://nsg.ee.ethz.ch/people/laurent-vanbever/). My current research focuses on sustainable networking, specifically in wired computer networks. 
 In the past, I worked on low-power wireless communication protocols, (real-time) scheduling theory, and statistics applied to experimental design.
 You can find out more about my research interests and past activities in [my resume](https://github.com/romain-jacob/website/blob/main/assets/documents/cv_short.pdf) and [publication page](/publications).
 
