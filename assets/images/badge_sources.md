@@ -1,0 +1,8 @@
+- BibTex: https://img.shields.io/badge/-BibTeX-lightgrey
+- PDF: https://img.shields.io/badge/-PDF-blueviolet?logo=adobeacrobatreader&labelColor=grey
+- DOI: 
+- Video: https://img.shields.io/badge/-Video-red?logo=youtube&labelColor=grey
+- Reviews: https://img.shields.io/badge/-Reviews-orange?logo=openaccess&labelColor=grey
+- Artifacts: https://img.shields.io/badge/-Artifacts-green?logo=github&labelColor=grey
+- Poster: https://img.shields.io/badge/Poster-DarkOrange"
+- Slides: https://img.shields.io/badge/-Slides-seagreen.svg?logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tIUZvbnQgQXdlc29tZSBGcmVlIDYuNS4yIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlL2ZyZWUgQ29weXJpZ2h0IDIwMjQgRm9udGljb25zLCBJbmMuLS0+PHBhdGggZmlsbD0iI2ZmZmZmZiIgZD0iTTE5MiA5NmE0OCA0OCAwIDEgMCAwLTk2IDQ4IDQ4IDAgMSAwIDAgOTZ6bS04IDM4NFYzNTJoMTZWNDgwYzAgMTcuNyAxNC4zIDMyIDMyIDMyczMyLTE0LjMgMzItMzJWMTkyaDU2IDY0IDE2YzE3LjcgMCAzMi0xNC4zIDMyLTMycy0xNC4zLTMyLTMyLTMySDM4NFY2NEg1NzZWMjU2SDM4NFYyMjRIMzIwdjQ4YzAgMjYuNSAyMS41IDQ4IDQ4IDQ4SDU5MmMyNi41IDAgNDgtMjEuNSA0OC00OFY0OGMwLTI2LjUtMjEuNS00OC00OC00OEgzNjhjLTI2LjUgMC00OCAyMS41LTQ4IDQ4djgwSDI0My4xIDE3Ny4xYy0zMy43IDAtNjQuOSAxNy43LTgyLjMgNDYuNmwtNTguMyA5N2MtOS4xIDE1LjEtNC4yIDM0LjggMTAuOSA0My45czM0LjggNC4yIDQzLjktMTAuOUwxMjAgMjU2LjlWNDgwYzAgMTcuNyAxNC4zIDMyIDMyIDMyczMyLTE0LjMgMzItMzJ6Ii8+PC9zdmc+&labelColor=grey
